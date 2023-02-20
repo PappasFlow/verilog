@@ -1,0 +1,56 @@
+Pin Freeze File:  version P.20131013
+
+9572XL64 XC9572XL-5-VQ64
+clk S:PIN6
+f1 S:PIN12
+f2 S:PIN38
+f3 S:PIN39
+p1 S:PIN34
+p2 S:PIN35
+p3 S:PIN36
+reset S:PIN27
+s S:PIN42
+mdw S:PIN13
+D_out<0> S:PIN60
+D_out<1> S:PIN25
+D_out<2> S:PIN24
+D_out<3> S:PIN22
+D_out<4> S:PIN20
+D_out<5> S:PIN19
+D_out<6> S:PIN18
+E_dis<0> S:PIN44
+E_dis<1> S:PIN43
+E_dis<2> S:PIN62
+E_dis<3> S:PIN1
+est<0> PIN57
+est<1> PIN31
+est<2> PIN61
+est<3> PIN8
+mup S:PIN7
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 BUF_D1<3> est_3 state_mux_FSM_FFd1 D1<3>
+		 mup_OBUF17 BUF_D2<4> BUF_D2<3> est_013
+		 D0<5> D_out_6 BUF_D2<5> D0<6>
+		 D0<3> D0<2> D_out_5 D0<0>
+		 D_out_4 D0<4>
+PARTITION FB2_2 D_out_0 D1<0> state_FSM_FFd3 est_2
+		 E_dis_2 state_FSM_FFd2 state_FSM_FFd1 D2<4>
+		 E_dis_3 D2<2> D1<2> D1<1>
+		 EXP6_ state_FSM_FFd4 EXP7_ mup_OBUF
+		 BUF_D2<0>
+PARTITION FB3_1 state_mux_FSM_FFd2 D_out_3 est_1 E_dis_018
+		 D_out_2 BUF_D2<1> BUF_D1<2> D_out_1
+		 BUF_D1<1> est_216 div_frec/count<4> div_frec/count<2>
+		 div_frec/count<0> clk_MD est_315 est_114
+		 div_frec/count<3> div_frec/count<1>
+PARTITION FB4_1 BUF_state_FSM_FFd2 E_dis_1 EXP8_ BUF_state_FSM_FFd1
+		 E_dis_0
+PARTITION FB4_7 D2<5> D2<3> D2<1> D2<0>
+		 BUF_D2<2>
+PARTITION FB4_13 EXP9_ EXP10_ BUF_state_FSM_FFd3 EXP11_
+		 est_0 EXP12_
+

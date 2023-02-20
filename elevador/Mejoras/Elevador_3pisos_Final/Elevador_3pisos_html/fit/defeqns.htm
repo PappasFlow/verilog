@@ -1,0 +1,376 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D1(1) <= ((state_FSM_FFd3 AND state_FSM_FFd1 AND NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT BUF_D1(3) AND NOT BUF_D2(2) AND NOT BUF_D2(4)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D1(2) <= ((state_FSM_FFd2 AND NOT BUF_D2(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd1 AND NOT BUF_D2(2) AND NOT mup_OBUF17));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D1(3) <= ((NOT state_FSM_FFd3 AND NOT state_FSM_FFd4 AND BUF_D2(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd2 AND state_FSM_FFd1 AND NOT BUF_D2(3)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D2(0) <= ((state_FSM_FFd4 AND NOT BUF_D1(3) AND BUF_D2(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT BUF_D1(3) AND BUF_D2(2) AND BUF_D2(4)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D2(1) <= ((NOT reset)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND NOT state_FSM_FFd4 AND NOT state_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT state_FSM_FFd1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D2(2) <= ((BUF_D2(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT est_114 AND BUF_D2(3)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D2(3) <= ((NOT reset)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND NOT state_FSM_FFd4 AND NOT state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND state_FSM_FFd4 AND NOT state_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT state_FSM_FFd1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D2(4) <= ((NOT reset)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND state_FSM_FFd4 AND state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND NOT state_FSM_FFd4 AND NOT state_FSM_FFd1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_D2(5) <= ((reset AND state_FSM_FFd3 AND NOT state_FSM_FFd4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_FSM_FFd3 AND state_FSM_FFd4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_FSM_FFd3 AND state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_FSM_FFd2 AND state_FSM_FFd1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_state_FSM_FFd1 <= ((NOT f1 AND NOT f2 AND est_216 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f3 AND NOT f1 AND NOT f2 AND reset AND BUF_D2(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f3 AND NOT f1 AND state_FSM_FFd1 AND NOT est_013 AND BUF_D2(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f1 AND NOT s AND NOT p2 AND p1 AND NOT p3 AND NOT f2 AND reset AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	BUF_D2(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f3 AND NOT f1 AND NOT s AND NOT p2 AND NOT p1 AND p3 AND NOT est_013 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	est_114 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f3 AND NOT f1 AND NOT s AND NOT p2 AND p1 AND NOT p3 AND NOT est_013 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	est_114 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f1 AND est_216 AND mup_OBUF17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f2 AND state_FSM_FFd4 AND BUF_D1(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f3 AND state_FSM_FFd4 AND NOT est_013 AND mup_OBUF17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f1 AND NOT f2 AND est_013 AND BUF_D1(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f2 AND est_114 AND NOT est_216 AND mup_OBUF17));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_state_FSM_FFd2 <= ((NOT f3 AND f1 AND NOT f2 AND reset AND BUF_D2(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f3 AND NOT f1 AND f2 AND reset AND NOT state_FSM_FFd4 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s AND NOT p2 AND p1 AND NOT p3 AND NOT f2 AND est_216 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (est_0.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (p1 AND NOT f2 AND BUF_D1(2) AND NOT BUF_state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f2 AND est_216 AND NOT BUF_state_FSM_FFd1 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND NOT mup_OBUF17 AND NOT BUF_state_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (p2 AND p3 AND NOT f2 AND state_FSM_FFd2 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT p2 AND NOT p3 AND NOT f2 AND BUF_D1(2) AND NOT BUF_state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f3 AND mup_OBUF17 AND NOT BUF_state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f2 AND mup_OBUF17 AND NOT BUF_state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f2 AND est_013 AND BUF_D1(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s AND NOT f2 AND state_FSM_FFd2 AND NOT BUF_D2(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd2 AND est_013 AND est_114 AND NOT BUF_D2(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+BUF_state_FSM_FFd3 <= ((EXP9_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f1 AND state_FSM_FFd3 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (est_013 AND BUF_D1(3) AND NOT BUF_state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f3 AND state_FSM_FFd3 AND est_114 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT p2 AND f2 AND NOT est_114 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (p3 AND BUF_D1(2) AND NOT BUF_state_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f3 AND p3 AND est_216 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f3 AND s AND state_FSM_FFd3 AND NOT BUF_D2(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s AND f2 AND NOT est_114 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s AND state_FSM_FFd3 AND est_216 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (p1 AND f2 AND NOT est_114 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f3 AND NOT BUF_D1(2) AND BUF_state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f2 AND est_013 AND BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND NOT BUF_D2(5) AND NOT BUF_D2(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND est_216 AND mup_OBUF17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (est_216 AND NOT BUF_state_FSM_FFd1 AND BUF_D1(1)));
+</td></tr><tr><td>
+FDCPE_D00: FDCPE port map (D0(0),D0_D(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0_D(0) <= ((reset AND NOT state_FSM_FFd3 AND state_FSM_FFd4 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_FSM_FFd4 AND NOT state_FSM_FFd1 AND NOT D0(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_FSM_FFd3 AND NOT state_FSM_FFd4 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT state_FSM_FFd2 AND NOT state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_FSM_FFd3 AND state_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT state_FSM_FFd1 AND NOT D0(0)));
+</td></tr><tr><td>
+FDCPE_D02: FDCPE port map (D0(2),D0_D(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0_D(2) <= ((NOT state_FSM_FFd4 AND state_FSM_FFd2 AND BUF_D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND NOT state_FSM_FFd4 AND state_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND NOT state_FSM_FFd2 AND state_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (D0(2) AND NOT BUF_D1(3) AND NOT BUF_D2(1) AND NOT BUF_D1(1)));
+</td></tr><tr><td>
+FDCPE_D03: FDCPE port map (D0(3),D0_D(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0_D(3) <= ((state_FSM_FFd1 AND NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND state_FSM_FFd2 AND NOT BUF_D2(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND D0(3) AND NOT BUF_D2(1) AND NOT mup_OBUF17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND state_FSM_FFd2 AND D0(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(2)));
+</td></tr><tr><td>
+FDCPE_D04: FDCPE port map (D0(4),D0_D(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0_D(4) <= ((state_FSM_FFd4 AND NOT state_FSM_FFd1 AND D0(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd4 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd2 AND BUF_D1(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd2 AND NOT state_FSM_FFd1 AND NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (D0(4) AND BUF_D2(3) AND NOT BUF_D2(2)));
+</td></tr><tr><td>
+FDCPE_D05: FDCPE port map (D0(5),D0_D(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0_D(5) <= ((BUF_D2(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd1 AND NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (D0(5) AND NOT BUF_D2(1)));
+</td></tr><tr><td>
+FDCPE_D06: FDCPE port map (D0(6),D0_D(6),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0_D(6) <= ((state_FSM_FFd1 AND NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND state_FSM_FFd2 AND NOT BUF_D2(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND D0(6) AND NOT BUF_D2(1) AND NOT mup_OBUF17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND state_FSM_FFd2 AND D0(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(2)));
+</td></tr><tr><td>
+FDCPE_D10: FDCPE port map (D1(0),'1',clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D11: FDCPE port map (D1(1),BUF_D1(1),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D12: FDCPE port map (D1(2),BUF_D1(2),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D20: FDCPE port map (D2(0),BUF_D2(0),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D21: FDCPE port map (D2(1),BUF_D2(1),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D22: FDCPE port map (D2(2),BUF_D2(2),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D23: FDCPE port map (D2(3),BUF_D2(3),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D24: FDCPE port map (D2(4),BUF_D2(4),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D25: FDCPE port map (D2(5),BUF_D2(5),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_D_out0: FDCPE port map (D_out(0),D_out_D(0),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D_out_D(0) <= ((D0(0) AND E_dis_018)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_mux_FSM_FFd2 AND D1(0) AND NOT E_dis_018)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(0)));
+</td></tr><tr><td>
+FDCPE_D_out1: FDCPE port map (D_out(1),D_out_D(1),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D_out_D(1) <= ((reset AND state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_mux_FSM_FFd2 AND NOT state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(1)));
+</td></tr><tr><td>
+FDCPE_D_out2: FDCPE port map (D_out(2),D_out_D(2),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D_out_D(2) <= ((D0(2) AND E_dis_018)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_mux_FSM_FFd2 AND NOT state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(2)));
+</td></tr><tr><td>
+FDCPE_D_out3: FDCPE port map (D_out(3),D_out_D(3),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D_out_D(3) <= ((D0(3) AND E_dis_018)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND mdw AND state_mux_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT state_mux_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(3)));
+</td></tr><tr><td>
+FDCPE_D_out4: FDCPE port map (D_out(4),D_out_D(4),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D_out_D(4) <= ((D0(4) AND E_dis_018)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND mdw AND state_mux_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT state_mux_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(4)));
+</td></tr><tr><td>
+FDCPE_D_out5: FDCPE port map (D_out(5),D_out_D(5),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D_out_D(5) <= ((D0(5) AND E_dis_018)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_mux_FSM_FFd2 AND NOT state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(5)));
+</td></tr><tr><td>
+FDCPE_D_out6: FDCPE port map (D_out(6),D_out_D(6),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D_out_D(6) <= ((D0(6) AND E_dis_018)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND state_mux_FSM_FFd2 AND NOT state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D1(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D2(3)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FDCPE_E_dis0: FDCPE port map (E_dis(0),E_dis_018,clk_MD,'0','0');
+</td></tr><tr><td>
+FDCPE_E_dis1: FDCPE port map (E_dis(1),E_dis_D(1),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E_dis_D(1) <= (reset AND state_mux_FSM_FFd2 AND NOT state_mux_FSM_FFd1);
+</td></tr><tr><td>
+FDCPE_E_dis2: FDCPE port map (E_dis(2),E_dis_D(2),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E_dis_D(2) <= (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1);
+</td></tr><tr><td>
+FDCPE_E_dis3: FDCPE port map (E_dis(3),E_dis_D(3),clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E_dis_D(3) <= (reset AND state_mux_FSM_FFd2 AND state_mux_FSM_FFd1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+E_dis_018 <= ((NOT reset)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_mux_FSM_FFd2 AND NOT state_mux_FSM_FFd1));
+</td></tr><tr><td>
+FTCPE_clk_MD: FTCPE port map (clk_MD,clk_MD_T,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_MD_T <= ((clk_MD AND NOT reset)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT div_frec/count(0) AND div_frec/count(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div_frec/count(2) AND div_frec/count(3) AND NOT div_frec/count(4)));
+</td></tr><tr><td>
+FTCPE_div_frec/count0: FTCPE port map (div_frec/count(0),div_frec/count_T(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_frec/count_T(0) <= ((NOT reset AND NOT div_frec/count(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT div_frec/count(0) AND div_frec/count(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div_frec/count(2) AND div_frec/count(3) AND NOT div_frec/count(4)));
+</td></tr><tr><td>
+FTCPE_div_frec/count1: FTCPE port map (div_frec/count(1),div_frec/count_T(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_frec/count_T(1) <= ((reset AND div_frec/count(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT reset AND div_frec/count(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (div_frec/count(1) AND NOT div_frec/count(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div_frec/count(3) AND NOT div_frec/count(4)));
+</td></tr><tr><td>
+FTCPE_div_frec/count2: FTCPE port map (div_frec/count(2),div_frec/count_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_frec/count_T(2) <= ((NOT reset AND div_frec/count(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND div_frec/count(0) AND div_frec/count(1)));
+</td></tr><tr><td>
+FTCPE_div_frec/count3: FTCPE port map (div_frec/count(3),div_frec/count_T(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_frec/count_T(3) <= ((NOT reset AND div_frec/count(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND div_frec/count(0) AND div_frec/count(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div_frec/count(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT div_frec/count(0) AND div_frec/count(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div_frec/count(2) AND div_frec/count(3) AND NOT div_frec/count(4)));
+</td></tr><tr><td>
+FTCPE_div_frec/count4: FTCPE port map (div_frec/count(4),div_frec/count_T(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_frec/count_T(4) <= ((NOT reset AND div_frec/count(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND div_frec/count(0) AND div_frec/count(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div_frec/count(2) AND div_frec/count(3)));
+</td></tr><tr><td>
+FDCPE_est0: FDCPE port map (est(0),est_013,clk,'0','0',reset);
+</td></tr><tr><td>
+FDCPE_est1: FDCPE port map (est(1),est_114,clk,'0','0',reset);
+</td></tr><tr><td>
+FDCPE_est2: FDCPE port map (est(2),est_216,clk,'0','0',reset);
+</td></tr><tr><td>
+FDCPE_est3: FDCPE port map (est(3),est_315,clk,'0','0',reset);
+</td></tr><tr><td>
+</td></tr><tr><td>
+est_013 <= ((state_FSM_FFd2 AND state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND est_114 AND est_315)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND NOT state_FSM_FFd2 AND NOT state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd4 AND NOT state_FSM_FFd2 AND NOT est_114 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT est_315));
+</td></tr><tr><td>
+</td></tr><tr><td>
+est_114 <= ((state_FSM_FFd3 AND state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd4 AND state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND NOT state_FSM_FFd4 AND NOT state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND state_FSM_FFd4 AND NOT state_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state_FSM_FFd1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+est_216 <= ((state_FSM_FFd3 AND state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd1 AND NOT est_315)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd1 AND NOT est_114 AND est_315));
+</td></tr><tr><td>
+</td></tr><tr><td>
+est_315 <= ((state_FSM_FFd3 AND state_FSM_FFd4 AND NOT state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND NOT state_FSM_FFd4 AND NOT state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND NOT state_FSM_FFd4 AND NOT state_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd4 AND state_FSM_FFd2 AND state_FSM_FFd1));
+</td></tr><tr><td>
+FDCPE_mdw: FDCPE port map (mdw,BUF_D1(3),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_mup: FDCPE port map (mup,mup_OBUF17,clk,'0','0');
+</td></tr><tr><td>
+</td></tr><tr><td>
+mup_OBUF17 <= ((NOT state_FSM_FFd2 AND NOT state_FSM_FFd1 AND NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND NOT state_FSM_FFd4 AND state_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state_FSM_FFd3 AND state_FSM_FFd4 AND NOT state_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_D2(2)));
+</td></tr><tr><td>
+FDCPE_state_FSM_FFd1: FDCPE port map (state_FSM_FFd1,BUF_state_FSM_FFd1,clk,'0','0');
+</td></tr><tr><td>
+FDCPE_state_FSM_FFd2: FDCPE port map (state_FSM_FFd2,BUF_state_FSM_FFd2,clk,'0','0');
+</td></tr><tr><td>
+FDCPE_state_FSM_FFd3: FDCPE port map (state_FSM_FFd3,BUF_state_FSM_FFd3,clk,'0','0');
+</td></tr><tr><td>
+FDCPE_state_FSM_FFd4: FDCPE port map (state_FSM_FFd4,state_FSM_FFd4_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_FSM_FFd4_D <= ((D1(1).EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f1 AND state_FSM_FFd1 AND BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f1 AND est_013 AND NOT mup_OBUF17 AND BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT p3 AND state_FSM_FFd4 AND BUF_state_FSM_FFd3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd4 AND NOT BUF_D1(2) AND NOT BUF_D2(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT BUF_state_FSM_FFd3 AND NOT BUF_state_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	BUF_D1(1) AND NOT BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (mup_OBUF.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s AND state_FSM_FFd4 AND BUF_state_FSM_FFd3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (p2 AND state_FSM_FFd4 AND BUF_state_FSM_FFd3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (p1 AND state_FSM_FFd4 AND BUF_state_FSM_FFd3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f3 AND state_FSM_FFd4 AND state_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT BUF_state_FSM_FFd1 AND BUF_state_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (p3 AND NOT f2 AND state_FSM_FFd4 AND est_013 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f3 AND est_216 AND mup_OBUF17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (f1 AND state_FSM_FFd3 AND BUF_D1(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT f2 AND est_315 AND BUF_state_FSM_FFd3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state_FSM_FFd3 AND state_FSM_FFd4 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	BUF_state_FSM_FFd3));
+</td></tr><tr><td>
+FDCPE_state_mux_FSM_FFd1: FDCPE port map (state_mux_FSM_FFd1,state_mux_FSM_FFd1_D,clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_mux_FSM_FFd1_D <= ((reset AND state_mux_FSM_FFd2 AND NOT state_mux_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reset AND NOT state_mux_FSM_FFd2 AND state_mux_FSM_FFd1));
+</td></tr><tr><td>
+FDCPE_state_mux_FSM_FFd2: FDCPE port map (state_mux_FSM_FFd2,state_mux_FSM_FFd2_D,clk_MD,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_mux_FSM_FFd2_D <= (reset AND NOT state_mux_FSM_FFd2);
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

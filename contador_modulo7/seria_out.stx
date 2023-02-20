@@ -1,0 +1,32 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Documentos/Proyectos_Digitales/contador_modulo7/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to D:/Documentos/Proyectos_Digitales/contador_modulo7/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "seria_out.v" in library work
+Module <seria_out> compiled
+ERROR:HDLCompilers:246 - "seria_out.v" line 37 Reference to scalar reg 'data_out' is not a legal net lvalue
+ERROR:HDLCompilers:53 - "seria_out.v" line 37 Illegal left hand side of continuous assign
+Analysis of file <"seria_out.prj"> failed.
+--> 
+
+Total memory usage is 4468060 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

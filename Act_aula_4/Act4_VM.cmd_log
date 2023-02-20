@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Act_aula_4/Act4_VM.xst" -ofn "D:/Documentos/Proyectos_Digitales/Act_aula_4/Act4_VM.syr" 

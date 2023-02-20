@@ -1,0 +1,139 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Testeo casos de fallas Elevador
+////////////////////////////////////////////////////////////////////////////////
+
+module Test_fallas_elevador;
+
+	// Inputs
+	reg p1;
+	reg p2;
+	reg p3;
+	reg f1;
+	reg f2;
+	reg f3;
+	reg s;
+	reg reset;
+	reg clk;
+
+	// Outputs
+	wire [6:0] D_out;
+	wire mup;
+	wire mdw;
+	wire [3:0] E_dis;
+	wire [3:0] est;
+
+	// Instantiate the Unit Under Test (UUT)
+	Elevador_3pisos uut (
+		.D_out(D_out), 
+		.mup(mup), 
+		.mdw(mdw), 
+		.p1(p1), 
+		.p2(p2), 
+		.p3(p3), 
+		.f1(f1), 
+		.f2(f2), 
+		.f3(f3), 
+		.s(s), 
+		.reset(reset), 
+		.clk(clk), 
+		.E_dis(E_dis), 
+		.est(est)
+	);
+
+	initial begin
+		// Initialize Inputs
+		s = 0;
+		p1 = 0;
+		p2 = 0;
+		p3 = 0;
+		f1 = 1;
+		f2 = 0;
+		f3 = 0;
+		reset = 0;
+		#10;
+		reset = 1;
+		#100;//sensor de sobrepeso activo
+		s = 1;
+		#20;
+		p1 = 1;
+		#20;
+		p1 = 0;
+		p2 = 1;
+		#20;
+		p2 = 0;
+		p3 = 1;
+		#20;
+		p3 = 0;
+		s = 0;//sensor de sobrepeso desactivo
+		#100; //llendo a piso 2 del 1 se activa F3
+		p2 = 1;
+		#20;
+		f1=0;
+		p2 = 0;
+		#20;
+		f3=1;
+		#100;//reset sin estar en ningun piso 
+		s = 0;
+		p1 = 0;
+		p2 = 0;
+		p3 = 0;
+		f1 = 0;
+		f2 = 0;
+		f3 = 0;
+		reset = 0;
+		#10;
+		reset = 1;
+		#100;//se lo lleva al piso 1 
+		p1 = 1;
+		#10;
+		p1 = 0;
+		#50;
+		f1 = 1;//llega al piso 1
+		#50;
+		f2 = 1; //se activa indevidamente F2
+		#100;//reset pero esta en piso 3 
+		s = 0;
+		p1 = 0;
+		p2 = 0;
+		p3 = 0;
+		f1 = 0;
+		f2 = 0;
+		f3 = 1;
+		reset = 0;
+		#10;
+		reset = 1;
+		#100; //llendo a piso 3 al 2 se activa F1
+		p2 = 1;
+		#20;
+		f3=0;
+		#20;
+		f1=1;
+		#100;
+		#100;//reset pero esta en piso 2
+		s = 0;
+		p1 = 0;
+		p2 = 0;
+		p3 = 0;
+		f1 = 0;
+		f2 = 1;
+		f3 = 0;
+		reset = 0;
+		#10;
+		reset = 1;
+		#50;
+		f1 = 1; //se activa indevidamente F1
+	end
+      
+	//simulacion del clock
+	   parameter PERIOD = 5;
+   always begin
+      clk= 1'b0;
+      #(PERIOD/2) clk = 1'b1;
+      #(PERIOD/2);
+   end  
+	//fin clock
+      
+endmodule
+

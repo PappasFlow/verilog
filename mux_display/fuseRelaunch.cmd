@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "D:/Documentos/Proyectos_Digitales/mux_display/Test_mux_Display_isim_beh.exe" -prj "D:/Documentos/Proyectos_Digitales/mux_display/Test_mux_Display_beh.prj" "work.Test_mux_Display" "work.glbl" 

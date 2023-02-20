@@ -1,0 +1,5 @@
+set -tmpdir "D:/Documentos/Proyectos_Digitales/prueba/xst/projnav.tmp"
+set -xsthdpdir "D:/Documentos/Proyectos_Digitales/prueba/xst"
+elaborate
+-ifn pr_bus.prj
+-ifmt mixed

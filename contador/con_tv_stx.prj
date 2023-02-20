@@ -1,0 +1,5 @@
+verilog isim_temp "mux4a1_vm.v"
+verilog isim_temp "FFD_vm.v"
+verilog isim_temp "con_vm.v"
+verilog isim_temp "con_tv.v"
+verilog isim_temp "C:/Xilinx/10.1/ISE/verilog/src/glbl.v"

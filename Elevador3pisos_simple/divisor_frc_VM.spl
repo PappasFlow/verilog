@@ -1,0 +1,9 @@
+[Inputs]
+clk
+rst
+[Outputs]
+clk2
+[BiDir]
+[ATTRIBUTES]
+VeriModel divisor_frc_VM
+

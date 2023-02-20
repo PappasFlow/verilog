@@ -1,0 +1,29 @@
+Command line:
+   Test_fallas_elevador_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58994
+
+Thu Nov 10 00:48:51 2022
+
+
+ Elaboration Time: 0.40625 sec
+
+ Current Memory Usage: 5806.54 Meg
+
+ Total Signals          : 27
+ Total Nets             : 39
+ Total Signal Drivers   : 19
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 24
+ Total Traceable Variables  : 57
+ Total Scalar Nets and Variables : 251
+Total Line Count : 280
+
+ Total Simulation Time: 0.609375 sec
+
+ Current Memory Usage: 4705.53 Meg
+
+Thu Nov 10 00:51:34 2022
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "D:/Documentos/Proyectos_Digitales/Elevador3pisos/Tes_divisor_frc_isim_beh.exe" -prj "D:/Documentos/Proyectos_Digitales/Elevador3pisos/Tes_divisor_frc_beh.prj" "work.Tes_divisor_frc" "work.glbl" 

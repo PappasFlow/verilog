@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Elevador3pisos/Elevador_3pisos.xst" -ofn "D:/Documentos/Proyectos_Digitales/Elevador3pisos/Elevador_3pisos.syr" 

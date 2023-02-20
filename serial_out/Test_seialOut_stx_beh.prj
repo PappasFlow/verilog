@@ -1,0 +1,4 @@
+verilog isim_temp "FFD.v"
+verilog isim_temp "Shift_register.v"
+verilog isim_temp "Test_seialOut.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

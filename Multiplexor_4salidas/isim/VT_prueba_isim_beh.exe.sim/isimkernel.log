@@ -1,0 +1,29 @@
+Command line:
+   VT_prueba_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51608
+
+Mon Jul 18 21:45:46 2022
+
+
+ Elaboration Time: 0.3125 sec
+
+ Current Memory Usage: 5807.5 Meg
+
+ Total Signals          : 35
+ Total Nets             : 28
+ Total Signal Drivers   : 20
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 22
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 114
+Total Line Count : 51
+
+ Total Simulation Time: 0.5 sec
+
+ Current Memory Usage: 5335.64 Meg
+
+Mon Jul 18 21:47:06 2022
+

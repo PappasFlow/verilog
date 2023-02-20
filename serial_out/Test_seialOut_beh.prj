@@ -1,0 +1,4 @@
+verilog work "FFD.v"
+verilog work "Shift_register.v"
+verilog work "Test_seialOut.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

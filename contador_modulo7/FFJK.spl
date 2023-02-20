@@ -1,0 +1,11 @@
+[Inputs]
+clk
+J
+K
+[Outputs]
+Q
+NQ
+[BiDir]
+[ATTRIBUTES]
+VeriModel FFJK
+

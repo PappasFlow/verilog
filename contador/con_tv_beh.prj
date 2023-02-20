@@ -1,0 +1,5 @@
+verilog work "mux4a1_vm.v"
+verilog work "FFD_vm.v"
+verilog work "con_vm.v"
+verilog work "con_tv.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

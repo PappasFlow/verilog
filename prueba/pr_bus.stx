@@ -1,0 +1,32 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Documentos/Proyectos_Digitales/prueba/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to D:/Documentos/Proyectos_Digitales/prueba/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "pr_bus.v" in library work
+ERROR:HDLCompilers:26 - "pr_bus.v" line 29 unexpected token: ']'
+ERROR:HDLCompilers:26 - "pr_bus.v" line 29 expecting '=', found '&'
+Module <pr_bus> compiled
+Analysis of file <"pr_bus.prj"> failed.
+--> 
+
+Total memory usage is 4468040 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,33 @@
+Pin Freeze File:  version K.39
+
+9572XL44PC XC9572XL-5-PC44
+clk S:PIN5
+f1 S:PIN37
+f2 S:PIN38
+f3 S:PIN39
+p1 S:PIN34
+p2 S:PIN35
+p3 S:PIN36
+reset S:PIN27
+s S:PIN42
+led<0> S:PIN4
+led<1> S:PIN3
+led<2> S:PIN2
+led<3> S:PIN1
+mdw S:PIN13
+mup S:PIN14
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 EXP6_ led_3
+PARTITION FB1_4 EXP7_ led_2 led_1 EXP8_
+		 led_0 EXP9_ state_FSM_FFd4 EXP10_
+		 EXP11_ EXP12_ state_FSM_FFd3 EXP13_
+		 EXP14_ state_FSM_FFd2 EXP15_
+
+PARTITION FB3_8 mdw_OBUF mup_OBUF
+PARTITION FB3_16 EXP16_ state_FSM_FFd1 EXP17_
+
+

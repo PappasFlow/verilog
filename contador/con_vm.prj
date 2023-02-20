@@ -1,0 +1,3 @@
+verilog work "mux4a1_vm.v"
+verilog work "FFD_vm.v"
+verilog work "con_vm.v"

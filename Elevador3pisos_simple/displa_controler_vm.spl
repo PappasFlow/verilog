@@ -1,0 +1,17 @@
+[Inputs]
+i0
+i1
+ip
+clock
+[Outputs]
+a
+b
+c
+d
+e
+f
+g
+[BiDir]
+[ATTRIBUTES]
+VeriModel displa_controler_vm
+

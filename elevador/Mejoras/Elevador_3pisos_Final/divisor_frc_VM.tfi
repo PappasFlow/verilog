@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+divisor_frc_VM instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .clk2(clk2)
+    );
+
+

@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt64\unwrapped\xst.exe -ise E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise -intstyle ise -ifn E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst -ofn E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

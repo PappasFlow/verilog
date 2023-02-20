@@ -1,0 +1,5 @@
+# begin LFP file C:\Users\joaqu\Desktop\UTN\Tecnicas digitales I\elevador\Mejoras\Elevador_3pisos_Final\Elevador_3pisos.lfp
+designfile Elevador_3pisos.v
+parttype xc9572xl-vq64-5
+bus_delimiter 0;
+set_busdelim_onsave 1;

@@ -1,0 +1,276 @@
+xst -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "F:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "F:/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "F:/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "F:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "F:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "F:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "F:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "F:/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "C:/Users/LTDI/Desktop/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -ifn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos.syr"
+ngdbuild -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -dd _ngo  -i -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd
+cpldfit -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd
+tsim -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise Elevador_3pisos Elevador_3pisos.nga
+taengine -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -intstyle ise -f Elevador_3pisos -l Elevador_3pisos.tim -e taengine.err
+hprep6 -ise "E:/Nueva carpeta/Elevador_3pisos_pcFacu/Elevador_3pisos_pcFacu.ise" -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos
+xst -intstyle ise -ifn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_pcFacu/Elevador_3pisos.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc Elevador_3pisos.ucf -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd 
+XSLTProcess Elevador_3pisos_build.xml 
+tsim -intstyle ise Elevador_3pisos Elevador_3pisos.nga 
+taengine -intstyle ise -f Elevador_3pisos -w --format html1 -l Elevador_3pisos_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos 
+xst -intstyle ise -ifn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_pcFacu/Elevador_3pisos.xst" -ofn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_pcFacu/Elevador_3pisos.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc Elevador_3pisos.ucf -p xc9572xl-PC44-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd 
+XSLTProcess Elevador_3pisos_build.xml 
+tsim -intstyle ise Elevador_3pisos Elevador_3pisos.nga 
+hprep6 -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos 
+xst -intstyle ise -ifn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_Final/Elevador_3pisos.xst" -ofn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_Final/Elevador_3pisos.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc Elevador_3pisos.ucf -p xc9572xl-VQ64-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc Elevador_3pisos.ucf -p xc9572xl-VQ64-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-VQ64 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd 
+XSLTProcess Elevador_3pisos_build.xml 
+tsim -intstyle ise Elevador_3pisos Elevador_3pisos.nga 
+taengine -intstyle ise -f Elevador_3pisos -w --format html1 -l Elevador_3pisos_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos 
+xst -intstyle ise -ifn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_Final/Elevador_3pisos.xst" -ofn "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_Final/Elevador_3pisos.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc Elevador_3pisos.ucf -p xc9572xl-VQ64-5 "Elevador_3pisos.ngc" Elevador_3pisos.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-VQ64 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd 
+XSLTProcess Elevador_3pisos_build.xml 
+tsim -intstyle ise Elevador_3pisos Elevador_3pisos.nga 
+hprep6 -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos 

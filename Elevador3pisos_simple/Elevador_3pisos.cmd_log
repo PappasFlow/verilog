@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Elevador3pisos/Elevador_3pisos.xst" -ofn "D:/Documentos/Proyectos_Digitales/Elevador3pisos/Elevador_3pisos.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Elevador3pisos_simple/Elevador_3pisos.xst" -ofn "D:/Documentos/Proyectos_Digitales/Elevador3pisos_simple/Elevador_3pisos.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 Elevador_3pisos.ngc Elevador_3pisos.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd 
+XSLTProcess Elevador_3pisos_build.xml 
+tsim -intstyle ise Elevador_3pisos Elevador_3pisos.nga 
+ngdbuild -intstyle ise -dd _ngo -uc Elevador_3pisos.ucf -p xc9572xl-PC44-5 Elevador_3pisos.ngc Elevador_3pisos.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Elevador_3pisos.ngd 
+XSLTProcess Elevador_3pisos_build.xml 
+tsim -intstyle ise Elevador_3pisos Elevador_3pisos.nga 
+hprep6 -s IEEE1149 -n Elevador_3pisos -i Elevador_3pisos 

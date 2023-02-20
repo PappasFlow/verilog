@@ -1,0 +1,29 @@
+Command line:
+   TV_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56005
+
+Wed Jun 29 15:18:59 2022
+
+
+ Elaboration Time: 0.421875 sec
+
+ Current Memory Usage: 5806.38 Meg
+
+ Total Signals          : 24
+ Total Nets             : 22
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 105
+Total Line Count : 48
+
+ Total Simulation Time: 1.5625 sec
+
+ Current Memory Usage: 4705.38 Meg
+
+Wed Jun 29 15:48:20 2022
+

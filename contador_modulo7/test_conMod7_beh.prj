@@ -1,0 +1,4 @@
+verilog work "FFD.v"
+verilog work "Con_mod7.v"
+verilog work "test_conMod7.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

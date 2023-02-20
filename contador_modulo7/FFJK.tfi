@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+FFJK instance_name (
+    .clk(clk), 
+    .J(J), 
+    .K(K), 
+    .Q(Q), 
+    .NQ(NQ)
+    );
+
+

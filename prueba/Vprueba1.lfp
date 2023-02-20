@@ -1,0 +1,5 @@
+# begin LFP file D:\Documentos\Proyectos_Digitales\prueba\Vprueba1.lfp
+designfile Vprueba1.v
+parttype xc9572xl-pc44-5
+bus_delimiter 0;
+set_busdelim_onsave 1;

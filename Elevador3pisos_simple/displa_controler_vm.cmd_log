@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/Documentos/Proyectos_Digitales/Elevador3pisos/display_controler.v -lang verilog -prj Elevador3pisos -o displa_controler_vm.spl -module displa_controler_vm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl displa_controler_vm.spl D:/Documentos/Proyectos_Digitales/Elevador3pisos/displa_controler_vm.sym 
+vhdtdtfi -lang verilog -prj Elevador3pisos -o D:/Documentos/Proyectos_Digitales/Elevador3pisos/displa_controler_vm.tfi -lib work D:/Documentos/Proyectos_Digitales/Elevador3pisos//display_controler.v -module displa_controler_vm -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

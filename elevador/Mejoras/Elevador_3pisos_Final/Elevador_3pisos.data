@@ -1,0 +1,321 @@
+MODELDATA
+MODELDATA_VERSION "v1998.8"
+DESIGN "Elevador_3pisos";
+
+/* port drive, load, max capacitance and max transition in data file */
+PORTDATA
+f3: MAXTRANS(0.0);
+f1: MAXTRANS(0.0);
+s: MAXTRANS(0.0);
+p2: MAXTRANS(0.0);
+p1: MAXTRANS(0.0);
+p3: MAXTRANS(0.0);
+f2: MAXTRANS(0.0);
+clk: MAXTRANS(0.0);
+reset: MAXTRANS(0.0);
+led<0>: MAXTRANS(0.0);
+led<1>: MAXTRANS(0.0);
+led<2>: MAXTRANS(0.0);
+led<3>: MAXTRANS(0.0);
+mdw: MAXTRANS(0.0);
+D_out<0>: MAXTRANS(0.0);
+D_out<1>: MAXTRANS(0.0);
+D_out<2>: MAXTRANS(0.0);
+D_out<3>: MAXTRANS(0.0);
+D_out<4>: MAXTRANS(0.0);
+D_out<5>: MAXTRANS(0.0);
+D_out<6>: MAXTRANS(0.0);
+E_dis<0>: MAXTRANS(0.0);
+E_dis<1>: MAXTRANS(0.0);
+E_dis<2>: MAXTRANS(0.0);
+E_dis<3>: MAXTRANS(0.0);
+mup: MAXTRANS(0.0);
+ENDPORTDATA
+
+/* timing arc data */
+TIMINGDATA
+
+ARCDATA
+clk_led<0>_delay:
+CELL_RISE(scalar) {
+  VALUES("3.5");
+}
+CELL_FALL(scalar) {
+  VALUES("3.5");
+}
+ENDARCDATA
+
+ARCDATA
+clk_led<1>_delay:
+CELL_RISE(scalar) {
+  VALUES("3.5");
+}
+CELL_FALL(scalar) {
+  VALUES("3.5");
+}
+ENDARCDATA
+
+ARCDATA
+clk_led<2>_delay:
+CELL_RISE(scalar) {
+  VALUES("3.5");
+}
+CELL_FALL(scalar) {
+  VALUES("3.5");
+}
+ENDARCDATA
+
+ARCDATA
+clk_led<3>_delay:
+CELL_RISE(scalar) {
+  VALUES("3.5");
+}
+CELL_FALL(scalar) {
+  VALUES("3.5");
+}
+ENDARCDATA
+
+ARCDATA
+clk_mdw_delay:
+CELL_RISE(scalar) {
+  VALUES("3.5");
+}
+CELL_FALL(scalar) {
+  VALUES("3.5");
+}
+ENDARCDATA
+
+ARCDATA
+clk_D_out<0>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_D_out<1>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_D_out<2>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_D_out<3>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_D_out<4>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_D_out<5>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_D_out<6>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_E_dis<0>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_E_dis<1>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_E_dis<2>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_E_dis<3>_delay:
+CELL_RISE(scalar) {
+  VALUES("7.4");
+}
+CELL_FALL(scalar) {
+  VALUES("7.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_mup_delay:
+CELL_RISE(scalar) {
+  VALUES("3.5");
+}
+CELL_FALL(scalar) {
+  VALUES("3.5");
+}
+ENDARCDATA
+
+ARCDATA
+f1_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+f2_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+f3_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+p1_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+p2_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+p3_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+reset_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+s_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("7");
+}
+ENDARCDATA
+
+ARCDATA
+f1_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ARCDATA
+f2_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ARCDATA
+f3_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ARCDATA
+p1_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ARCDATA
+p2_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ARCDATA
+p3_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ARCDATA
+reset_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ARCDATA
+s_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-3.3");
+}
+ENDARCDATA
+
+ENDTIMINGDATA
+ENDMODELDATA

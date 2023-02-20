@@ -1,0 +1,4 @@
+verilog isim_temp "divisor_frc_VM.v"
+verilog isim_temp "Elevador_3pisos.v"
+verilog isim_temp "Test_Elevador.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

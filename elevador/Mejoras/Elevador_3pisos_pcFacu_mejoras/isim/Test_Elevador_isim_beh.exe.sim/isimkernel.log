@@ -1,0 +1,29 @@
+Command line:
+   Test_Elevador_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59002
+
+Thu Nov 10 00:52:43 2022
+
+
+ Elaboration Time: 0.375 sec
+
+ Current Memory Usage: 5805.96 Meg
+
+ Total Signals          : 27
+ Total Nets             : 39
+ Total Signal Drivers   : 19
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 24
+ Total Traceable Variables  : 57
+ Total Scalar Nets and Variables : 251
+Total Line Count : 268
+
+ Total Simulation Time: 0.671875 sec
+
+ Current Memory Usage: 5805.96 Meg
+
+Thu Nov 10 00:53:33 2022
+

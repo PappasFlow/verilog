@@ -1,0 +1,1371 @@
+NDS Database:  version K.39
+
+NDS_INFO | xc9500xl | 9572XL44PC | XC9572XL-5-PC44
+
+DEVICE | 9572XL | 9572XL44PC | 
+
+NETWORK | Elevador_3pisos | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | p2_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | p2 | 4313 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | p1_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | p1 | 4314 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | f3_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | f3 | 4315 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | f1_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | f1 | 4316 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | s_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | s | 4317 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | p3_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | p3 | 4318 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | f2_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | f2 | 4319 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | reset_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | reset | 4320 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_IBUF | Elevador_3pisos_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 4321 | PI | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | led_0 | Elevador_3pisos_COPY_0_COPY_0 | 2155873280 | 14 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 4379 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led_0 | 4297 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_0.Q | led_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | led_0.EXP | 4380 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_0.EXP | led_0 | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | led_0.SI | led_0 | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 4379 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led_0.D1 | 4323 | ? | 0 | 4096 | led_0 | NULL | NULL | led_0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led_0.D2 | 4324 | ? | 0 | 4096 | led_0 | NULL | NULL | led_0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP8_.EXP
+SPPTERM | 2 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | led_0.EXP | 4369 | ? | 0 | 0 | led_0 | NULL | NULL | led_0.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 9 | IV_FALSE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f3_IBUF | IV_FALSE | s_IBUF | IV_TRUE | p3_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 10 | IV_TRUE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 11 | IV_TRUE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f3_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | led_0.CE | 4325 | ? | 0 | 4096 | led_0 | NULL | NULL | led_0.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+
+SRFF_INSTANCE | led_0.REG | led_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led_0.D | 4322 | ? | 0 | 0 | led_0 | NULL | NULL | led_0.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | led_0.CE | 4325 | ? | 0 | 4096 | led_0 | NULL | NULL | led_0.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led_0.Q | 4326 | ? | 0 | 0 | led_0 | NULL | NULL | led_0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | led_1 | Elevador_3pisos_COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led_1 | 4298 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_1.Q | led_1 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led_1.SI | led_1 | 0 | 5 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led_1.D1 | 4328 | ? | 0 | 4096 | led_1 | NULL | NULL | led_1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led_1.D2 | 4329 | ? | 0 | 4096 | led_1 | NULL | NULL | led_1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 2 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 3 | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+SPPTERM | 4 | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | led_1.CE | 4330 | ? | 0 | 4096 | led_1 | NULL | NULL | led_1.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+
+SRFF_INSTANCE | led_1.REG | led_1 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led_1.D | 4327 | ? | 0 | 0 | led_1 | NULL | NULL | led_1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | led_1.CE | 4330 | ? | 0 | 4096 | led_1 | NULL | NULL | led_1.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led_1.Q | 4331 | ? | 0 | 0 | led_1 | NULL | NULL | led_1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+OptxMapped | led_2 | Elevador_3pisos_COPY_0_COPY_0 | 2155873536 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 4378 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led_2 | 4299 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_2.Q | led_2 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led_2.SI | led_2 | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 4378 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led_2.D1 | 4333 | ? | 0 | 4096 | led_2 | NULL | NULL | led_2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led_2.D2 | 4334 | ? | 0 | 4096 | led_2 | NULL | NULL | led_2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP7_.EXP
+SPPTERM | 2 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 3 | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 3 | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 3 | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | led_2.CE | 4335 | ? | 0 | 4096 | led_2 | NULL | NULL | led_2.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+
+SRFF_INSTANCE | led_2.REG | led_2 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led_2.D | 4332 | ? | 0 | 0 | led_2 | NULL | NULL | led_2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | led_2.CE | 4335 | ? | 0 | 4096 | led_2 | NULL | NULL | led_2.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led_2.Q | 4336 | ? | 0 | 0 | led_2 | NULL | NULL | led_2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | led_3 | Elevador_3pisos_COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led_3 | 4300 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_3.Q | led_3 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led_3.SI | led_3 | 0 | 5 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led_3.D1 | 4338 | ? | 0 | 4096 | led_3 | NULL | NULL | led_3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led_3.D2 | 4339 | ? | 0 | 4096 | led_3 | NULL | NULL | led_3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 3 | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+SPPTERM | 3 | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 3 | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | led_3.CE | 4340 | ? | 0 | 4096 | led_3 | NULL | NULL | led_3.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+
+SRFF_INSTANCE | led_3.REG | led_3 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led_3.D | 4337 | ? | 0 | 0 | led_3 | NULL | NULL | led_3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | led_3.CE | 4340 | ? | 0 | 4096 | led_3 | NULL | NULL | led_3.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | reset_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led_3.Q | 4341 | ? | 0 | 0 | led_3 | NULL | NULL | led_3.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | state_FSM_FFd4 | Elevador_3pisos_COPY_0_COPY_0 | 2155877376 | 15 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 4381 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP10_.EXP | 4382 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state_FSM_FFd4.SI | state_FSM_FFd4 | 0 | 14 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 4381 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP10_.EXP | 4382 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state_FSM_FFd4.D1 | 4343 | ? | 0 | 4096 | state_FSM_FFd4 | NULL | NULL | state_FSM_FFd4.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state_FSM_FFd4.D2 | 4344 | ? | 0 | 4096 | state_FSM_FFd4 | NULL | NULL | state_FSM_FFd4.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP9_.EXP
+SPPTERM | 1 | IV_TRUE | EXP10_.EXP
+SPPTERM | 6 | IV_FALSE | p2_IBUF | IV_TRUE | f3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | p1_IBUF | IV_TRUE | f3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_TRUE | s_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_TRUE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 7 | IV_TRUE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+SRFF_INSTANCE | state_FSM_FFd4.REG | state_FSM_FFd4 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state_FSM_FFd4.D | 4342 | ? | 0 | 0 | state_FSM_FFd4 | NULL | NULL | state_FSM_FFd4.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state_FSM_FFd4.Q | 4345 | ? | 0 | 0 | state_FSM_FFd4 | NULL | NULL | state_FSM_FFd4.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | state_FSM_FFd1 | Elevador_3pisos_COPY_0_COPY_0 | 2155873280 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP16_.EXP | 4390 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP16_.EXP | EXP16_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP17_.EXP | 4391 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP17_.EXP | EXP17_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state_FSM_FFd1.SI | state_FSM_FFd1 | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP16_.EXP | 4390 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP16_.EXP | EXP16_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP17_.EXP | 4391 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP17_.EXP | EXP17_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state_FSM_FFd1.D1 | 4347 | ? | 0 | 4096 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state_FSM_FFd1.D2 | 4348 | ? | 0 | 4096 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP16_.EXP
+SPPTERM | 1 | IV_TRUE | EXP17_.EXP
+SPPTERM | 5 | IV_FALSE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+SPPTERM | 5 | IV_FALSE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 5 | IV_FALSE | f1_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+SPPTERM | 5 | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+SRFF_INSTANCE | state_FSM_FFd1.REG | state_FSM_FFd1 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state_FSM_FFd1.D | 4346 | ? | 0 | 0 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state_FSM_FFd1.Q | 4349 | ? | 0 | 0 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | state_FSM_FFd3 | Elevador_3pisos_COPY_0_COPY_0 | 2155877376 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP12_.EXP | 4384 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP13_.EXP | 4385 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP13_.EXP | EXP13_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state_FSM_FFd3.SI | state_FSM_FFd3 | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP12_.EXP | 4384 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP13_.EXP | 4385 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP13_.EXP | EXP13_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state_FSM_FFd3.D1 | 4351 | ? | 0 | 4096 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state_FSM_FFd3.D2 | 4352 | ? | 0 | 4096 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP12_.EXP
+SPPTERM | 1 | IV_TRUE | EXP13_.EXP
+SPPTERM | 2 | IV_FALSE | reset_IBUF | IV_TRUE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_FALSE | f2_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 6 | IV_TRUE | f1_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+SRFF_INSTANCE | state_FSM_FFd3.REG | state_FSM_FFd3 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state_FSM_FFd3.D | 4350 | ? | 0 | 0 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state_FSM_FFd3.Q | 4353 | ? | 0 | 0 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | state_FSM_FFd2 | Elevador_3pisos_COPY_0_COPY_0 | 2155877376 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP14_.EXP | 4386 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP14_.EXP | EXP14_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP15_.EXP | 4387 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP15_.EXP | EXP15_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state_FSM_FFd2.SI | state_FSM_FFd2 | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP14_.EXP | 4386 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP14_.EXP | EXP14_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP15_.EXP | 4387 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP15_.EXP | EXP15_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state_FSM_FFd2.D1 | 4355 | ? | 0 | 4096 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state_FSM_FFd2.D2 | 4356 | ? | 0 | 4096 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP14_.EXP
+SPPTERM | 1 | IV_TRUE | EXP15_.EXP
+SPPTERM | 2 | IV_FALSE | reset_IBUF | IV_TRUE | state_FSM_FFd2
+SPPTERM | 4 | IV_TRUE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 5 | IV_TRUE | f1_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 5 | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_FALSE | f3_IBUF | IV_TRUE | f1_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+SRFF_INSTANCE | state_FSM_FFd2.REG | state_FSM_FFd2 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state_FSM_FFd2.D | 4354 | ? | 0 | 0 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state_FSM_FFd2.Q | 4357 | ? | 0 | 0 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | mdw_OBUF | Elevador_3pisos_COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | mdw_OBUF | 4305 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | mdw_OBUF.Q | mdw_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | mdw_OBUF.SI | mdw_OBUF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | mdw_OBUF.D1 | 4359 | ? | 0 | 4096 | mdw_OBUF | NULL | NULL | mdw_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | mdw_OBUF.D2 | 4360 | ? | 0 | 4096 | mdw_OBUF | NULL | NULL | mdw_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 4 | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+
+SRFF_INSTANCE | mdw_OBUF.REG | mdw_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | mdw_OBUF.D | 4358 | ? | 0 | 0 | mdw_OBUF | NULL | NULL | mdw_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | mdw_OBUF.Q | 4361 | ? | 0 | 0 | mdw_OBUF | NULL | NULL | mdw_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | mup_OBUF | Elevador_3pisos_COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | mup_OBUF | 4306 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | mup_OBUF.Q | mup_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | mup_OBUF.SI | mup_OBUF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | mup_OBUF.D1 | 4363 | ? | 0 | 4096 | mup_OBUF | NULL | NULL | mup_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | mup_OBUF.D2 | 4364 | ? | 0 | 4096 | mup_OBUF | NULL | NULL | mup_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 4 | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+SPPTERM | 4 | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+SRFF_INSTANCE | mup_OBUF.REG | mup_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | mup_OBUF.D | 4362 | ? | 0 | 0 | mup_OBUF | NULL | NULL | mup_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 4296 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | mup_OBUF.Q | 4365 | ? | 0 | 0 | mup_OBUF | NULL | NULL | mup_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led<0> | Elevador_3pisos_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led_0 | 4297 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_0.Q | led_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led<0> | 4307 | PO | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | led<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | led<1> | Elevador_3pisos_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led_1 | 4298 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_1.Q | led_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led<1> | 4308 | PO | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | led<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | led<2> | Elevador_3pisos_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led_2 | 4299 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_2.Q | led_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led<2> | 4309 | PO | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | led<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | led<3> | Elevador_3pisos_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led_3 | 4300 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_3.Q | led_3 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led<3> | 4310 | PO | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | led<3> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | mdw | Elevador_3pisos_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | mdw_OBUF | 4305 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | mdw_OBUF.Q | mdw_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | mdw | 4311 | PO | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | mdw | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | mup | Elevador_3pisos_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | mup_OBUF | 4306 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | mup_OBUF.Q | mup_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | mup | 4312 | PO | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | mup | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | EXP6_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP6_.EXP | 4377 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP6_.SI | EXP6_ | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP6_.EXP | 4366 | ? | 0 | 0 | EXP6_ | NULL | NULL | EXP6_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 10 | IV_TRUE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 10 | IV_FALSE | p2_IBUF | IV_TRUE | p1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP7_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP7_.EXP | 4378 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP7_.SI | EXP7_ | 0 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP7_.EXP | 4367 | ? | 0 | 0 | EXP7_ | NULL | NULL | EXP7_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 4 | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP8_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP8_.EXP | 4379 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP8_.SI | EXP8_ | 0 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP8_.EXP | 4368 | ? | 0 | 0 | EXP8_ | NULL | NULL | EXP8_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 3 | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+SPPTERM | 3 | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 3 | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 3 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP9_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | led_0.EXP | 4380 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_0.EXP | led_0 | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP9_.EXP | 4381 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP9_.SI | EXP9_ | 0 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | led_0.EXP | 4380 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | led_0.EXP | led_0 | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP9_.EXP | 4370 | ? | 0 | 0 | EXP9_ | NULL | NULL | EXP9_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | led_0.EXP
+SPPTERM | 2 | IV_FALSE | reset_IBUF | IV_TRUE | state_FSM_FFd4
+SPPTERM | 4 | IV_TRUE | f1_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1
+SPPTERM | 5 | IV_TRUE | f3_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 5 | IV_TRUE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 5 | IV_TRUE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP10_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP10_.EXP | 4382 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP10_.SI | EXP10_ | 0 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP10_.EXP | 4371 | ? | 0 | 0 | EXP10_ | NULL | NULL | EXP10_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_TRUE | f3_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3
+SPPTERM | 5 | IV_TRUE | f1_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 7 | IV_FALSE | f3_IBUF | IV_TRUE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 8 | IV_FALSE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | s_IBUF | IV_TRUE | p3_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 9 | IV_TRUE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP11_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP11_.EXP | 4383 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP11_.SI | EXP11_ | 0 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP11_.EXP | 4372 | ? | 0 | 0 | EXP11_ | NULL | NULL | EXP11_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 9 | IV_TRUE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 9 | IV_FALSE | p2_IBUF | IV_TRUE | p1_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 9 | IV_FALSE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | s_IBUF | IV_TRUE | p3_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 10 | IV_TRUE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 10 | IV_FALSE | p2_IBUF | IV_TRUE | p1_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP12_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP11_.EXP | 4383 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP12_.EXP | 4384 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP12_.SI | EXP12_ | 0 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP11_.EXP | 4383 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP12_.EXP | 4373 | ? | 0 | 0 | EXP12_ | NULL | NULL | EXP12_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP11_.EXP
+SPPTERM | 6 | IV_FALSE | p2_IBUF | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | p1_IBUF | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | s_IBUF | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | p3_IBUF | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3
+SPPTERM | 6 | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP13_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP13_.EXP | 4385 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP13_.EXP | EXP13_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP13_.SI | EXP13_ | 0 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP13_.EXP | 4374 | ? | 0 | 0 | EXP13_ | NULL | NULL | EXP13_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 6 | IV_TRUE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 6 | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 7 | IV_TRUE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 7 | IV_FALSE | f3_IBUF | IV_FALSE | f1_IBUF | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 9 | IV_FALSE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_TRUE | p3_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP14_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP14_.EXP | 4386 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP14_.EXP | EXP14_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP14_.SI | EXP14_ | 0 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP14_.EXP | 4375 | ? | 0 | 0 | EXP14_ | NULL | NULL | EXP14_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 6 | IV_TRUE | f3_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 6 | IV_TRUE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 7 | IV_TRUE | f3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 7 | IV_FALSE | f3_IBUF | IV_TRUE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP15_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 4377 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP15_.EXP | 4387 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP15_.EXP | EXP15_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP15_.SI | EXP15_ | 0 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 4377 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP15_.EXP | 4376 | ? | 0 | 0 | EXP15_ | NULL | NULL | EXP15_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP6_.EXP
+SPPTERM | 7 | IV_FALSE | f3_IBUF | IV_FALSE | f1_IBUF | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 8 | IV_TRUE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 8 | IV_FALSE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | s_IBUF | IV_TRUE | p3_IBUF | IV_TRUE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 10 | IV_FALSE | p2_IBUF | IV_TRUE | p1_IBUF | IV_FALSE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 10 | IV_FALSE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_TRUE | p3_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP16_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP16_.EXP | 4390 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP16_.EXP | EXP16_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP16_.SI | EXP16_ | 0 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP16_.EXP | 4388 | ? | 0 | 0 | EXP16_ | NULL | NULL | EXP16_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 6 | IV_TRUE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+MACROCELL_INSTANCE | NULL | EXP17_ | Elevador_3pisos_COPY_0_COPY_0 | 2147483648 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP17_.EXP | 4391 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | EXP17_.EXP | EXP17_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP17_.SI | EXP17_ | 0 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f3_IBUF | 4290 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f1_IBUF | 4291 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_IBUF | 4295 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 4302 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 4303 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 4304 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | f2_IBUF | 4294 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | f2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd4 | 4301 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | state_FSM_FFd4.Q | state_FSM_FFd4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p2_IBUF | 4288 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p1_IBUF | 4289 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_IBUF | 4292 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | s_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | p3_IBUF | 4293 | ? | 0 | 0 | Elevador_3pisos_COPY_0_COPY_0 | NULL | NULL | p3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP17_.EXP | 4389 | ? | 0 | 0 | EXP17_ | NULL | NULL | EXP17_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 6 | IV_FALSE | f3_IBUF | IV_FALSE | f1_IBUF | IV_TRUE | reset_IBUF | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 8 | IV_TRUE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+SPPTERM | 10 | IV_FALSE | p2_IBUF | IV_TRUE | p1_IBUF | IV_FALSE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 10 | IV_FALSE | p2_IBUF | IV_FALSE | p1_IBUF | IV_FALSE | f3_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_TRUE | p3_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_TRUE | state_FSM_FFd3 | IV_TRUE | state_FSM_FFd2
+SPPTERM | 11 | IV_FALSE | p2_IBUF | IV_TRUE | p1_IBUF | IV_FALSE | f1_IBUF | IV_FALSE | s_IBUF | IV_FALSE | p3_IBUF | IV_FALSE | f2_IBUF | IV_TRUE | reset_IBUF | IV_FALSE | state_FSM_FFd4 | IV_FALSE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd3 | IV_FALSE | state_FSM_FFd2
+
+FB_INSTANCE | FOOBAR1_ | Elevador_3pisos_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | EXP6_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 2 | led_3 | 1 | NULL | 0 | led<3> | 1 | 1 | 49152
+FBPIN | 4 | EXP7_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 5 | led_2 | 1 | NULL | 0 | led<2> | 1 | 2 | 49152
+FBPIN | 6 | led_1 | 1 | NULL | 0 | led<1> | 1 | 3 | 49152
+FBPIN | 7 | EXP8_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 8 | led_0 | 1 | NULL | 0 | led<0> | 1 | 4 | 49152
+FBPIN | 9 | EXP9_ | 1 | clk_IBUF | 0 | NULL | 0 | 5 | 57344
+FBPIN | 10 | state_FSM_FFd4 | 1 | NULL | 0 | NULL | 0
+FBPIN | 11 | EXP10_ | 1 | NULL | 0 | NULL | 0 | 6 | 57344
+FBPIN | 12 | EXP11_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 13 | EXP12_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 14 | state_FSM_FFd3 | 1 | NULL | 0 | NULL | 0 | 7 | 57344
+FBPIN | 15 | EXP13_ | 1 | NULL | 0 | NULL | 0 | 8 | 49152
+FBPIN | 16 | EXP14_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 17 | state_FSM_FFd2 | 1 | NULL | 0 | NULL | 0 | 9 | 49152
+FBPIN | 18 | EXP15_ | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | Elevador_3pisos_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | NULL | 0 | p2_IBUF | 1 | NULL | 0 | 35 | 49152
+FBPIN | 5 | NULL | 0 | p3_IBUF | 1 | NULL | 0 | 36 | 49152
+FBPIN | 6 | NULL | 0 | f1_IBUF | 1 | NULL | 0 | 37 | 49152
+FBPIN | 8 | NULL | 0 | f2_IBUF | 1 | NULL | 0 | 38 | 49152
+FBPIN | 9 | NULL | 0 | f3_IBUF | 1 | NULL | 0 | 39 | 51200
+FBPIN | 14 | NULL | 0 | s_IBUF | 1 | NULL | 0 | 42 | 53248
+
+FB_INSTANCE | FOOBAR3_ | Elevador_3pisos_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 8 | mdw_OBUF | 1 | NULL | 0 | mdw | 1 | 13 | 49152
+FBPIN | 9 | mup_OBUF | 1 | NULL | 0 | mup | 1 | 14 | 49152
+FBPIN | 16 | EXP16_ | 1 | NULL | 0 | NULL | 0 | 24 | 49152
+FBPIN | 17 | state_FSM_FFd1 | 1 | NULL | 0 | NULL | 0 | 22 | 49152
+FBPIN | 18 | EXP17_ | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR4_ | Elevador_3pisos_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 8 | NULL | 0 | reset_IBUF | 1 | NULL | 0 | 27 | 49152
+FBPIN | 17 | NULL | 0 | p1_IBUF | 1 | NULL | 0 | 34 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | Elevador_3pisos_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | LED<3:0> | 4 | 0 | 1 | led<0> | 3 | led<1> | 2 | led<2> | 1 | led<3> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | p1 | 34 | 9 | state_FSM_FFd4 | NULL | 10 | f1 | 37 | 11 | reset | 27 | 16 | state_FSM_FFd1 | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 22 | s | 42 | 23 | p3 | 36 | 30 | state_FSM_FFd3 | NULL | 32 | state_FSM_FFd2 | NULL | 33 | p2 | 35
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 43 | f2 | 38 | 52 | f3 | 39
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 73 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 9 | 82 | 101 | -1 | -1 | -1 | -1 | 52 | -1 | -1 | -1 | -1 | -1 | 98 | 80 | -1 | -1 | -1 | -1 | -1 | -1 | 13 | -1 | 16 | 78 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 84 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 86 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 1 | p1 | 34 | 9 | state_FSM_FFd4 | NULL | 10 | f1 | 37 | 11 | reset | 27 | 16 | state_FSM_FFd1 | NULL
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 22 | s | 42 | 23 | p3 | 36 | 30 | state_FSM_FFd3 | NULL | 32 | state_FSM_FFd2 | NULL | 33 | p2 | 35
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 43 | f2 | 38 | 52 | f3 | 39
+
+FB_IMUX_INDEX | FOOBAR3_ | -1 | 73 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 9 | 82 | 101 | -1 | -1 | -1 | -1 | 52 | -1 | -1 | -1 | -1 | -1 | 98 | 80 | -1 | -1 | -1 | -1 | -1 | -1 | 13 | -1 | 16 | 78 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 84 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 86 | -1
+
+
+GLOBAL_FCLK | clk | 0 | 0

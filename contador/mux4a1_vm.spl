@@ -1,0 +1,13 @@
+[Inputs]
+q0
+q1
+q2
+q3
+s0
+s1
+[Outputs]
+out
+[BiDir]
+[ATTRIBUTES]
+VeriModel mux4a1_vm
+

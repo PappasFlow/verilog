@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Elevador_3pisos_pcFacu.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Elevador_3pisos.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Elevador_3pisos.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="Elevador_3pisos.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="Elevador_3pisos.jed"/>
+    <file xil_pn:fileType="FILE_LFP" xil_pn:name="Elevador_3pisos.lfp"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Elevador_3pisos.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="Elevador_3pisos.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="Elevador_3pisos.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Elevador_3pisos.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Elevador_3pisos.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Elevador_3pisos.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Elevador_3pisos.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="Elevador_3pisos.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Elevador_3pisos.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Elevador_3pisos.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Elevador_3pisos.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Elevador_3pisos.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Elevador_3pisos.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Elevador_3pisos.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Elevador_3pisos.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Elevador_3pisos.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Elevador_3pisos.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Elevador_3pisos_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Elevador_3pisos_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Elevador_3pisos_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Elevador_3pisos_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Elevador_3pisos_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Elevador_3pisos_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Elevador_3pisos_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Tes_divisor_frc_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Tes_divisor_frc_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_Elevador_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_Elevador_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_fallas_elevador_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_fallas_elevador_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Test_fallas_elevador_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_fallas_elevador_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="_impact.cmd"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="_impact.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divisor_frc_VM.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="divisor_frc_VM.stx"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="divisor_frc_VM.tfi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="divisor_frc_VM.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1668520393" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1668520393">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668707442" xil_pn:in_ck="4318029841503965147" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1668707442">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Elevador_3pisos.v"/>
+      <outfile xil_pn:name="Tes_divisor_frc.v"/>
+      <outfile xil_pn:name="Test_Elevador.v"/>
+      <outfile xil_pn:name="Test_fallas_elevador.v"/>
+      <outfile xil_pn:name="divisor_frc_VM.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1668714355" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3127364301175441354" xil_pn:start_ts="1668714355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668707442" xil_pn:in_ck="4318029841503965147" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1668707442">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Elevador_3pisos.v"/>
+      <outfile xil_pn:name="Tes_divisor_frc.v"/>
+      <outfile xil_pn:name="Test_Elevador.v"/>
+      <outfile xil_pn:name="Test_fallas_elevador.v"/>
+      <outfile xil_pn:name="divisor_frc_VM.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1668714359" xil_pn:in_ck="4318029841503965147" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-219115925472489455" xil_pn:start_ts="1668714355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Test_fallas_elevador_beh.prj"/>
+      <outfile xil_pn:name="Test_fallas_elevador_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1668714360" xil_pn:in_ck="5406881016653376550" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8633074803551033451" xil_pn:start_ts="1668714359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Test_fallas_elevador_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1668637580" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1668637580">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668637580" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1808806053594655353" xil_pn:start_ts="1668637580">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668642866" xil_pn:in_ck="-5527811764321835850" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="2517007091159537004" xil_pn:start_ts="1668642857">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="Elevador_3pisos.lso"/>
+      <outfile xil_pn:name="Elevador_3pisos.ngc"/>
+      <outfile xil_pn:name="Elevador_3pisos.ngr"/>
+      <outfile xil_pn:name="Elevador_3pisos.prj"/>
+      <outfile xil_pn:name="Elevador_3pisos.stx"/>
+      <outfile xil_pn:name="Elevador_3pisos.syr"/>
+      <outfile xil_pn:name="Elevador_3pisos.xst"/>
+      <outfile xil_pn:name="Elevador_3pisos_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1668637793" xil_pn:in_ck="-7539137150375464226" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1046870316986231596" xil_pn:start_ts="1668637793">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668642873" xil_pn:in_ck="-661165923744337546" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-3408397811283534289" xil_pn:start_ts="1668642866">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Elevador_3pisos.bld"/>
+      <outfile xil_pn:name="Elevador_3pisos.ngd"/>
+      <outfile xil_pn:name="Elevador_3pisos_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1668642892" xil_pn:in_ck="-7539137150375471719" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="7918542860465728585" xil_pn:start_ts="1668642873">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Elevador_3pisos.gyd"/>
+      <outfile xil_pn:name="Elevador_3pisos.mfd"/>
+      <outfile xil_pn:name="Elevador_3pisos.nga"/>
+      <outfile xil_pn:name="Elevador_3pisos.pad"/>
+      <outfile xil_pn:name="Elevador_3pisos.pnx"/>
+      <outfile xil_pn:name="Elevador_3pisos.rpt"/>
+      <outfile xil_pn:name="Elevador_3pisos.tim"/>
+      <outfile xil_pn:name="Elevador_3pisos.tspec"/>
+      <outfile xil_pn:name="Elevador_3pisos.vm6"/>
+      <outfile xil_pn:name="Elevador_3pisos.xml"/>
+      <outfile xil_pn:name="Elevador_3pisos_build.xml"/>
+      <outfile xil_pn:name="Elevador_3pisos_html"/>
+      <outfile xil_pn:name="Elevador_3pisos_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1668642895" xil_pn:in_ck="-7539137150375462855" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1668642892">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Elevador_3pisos.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1668642895" xil_pn:in_ck="-7539137150375476141" xil_pn:name="TRAN_impactProgrammingTool_CPLD" xil_pn:prop_ck="-3598488201878296819" xil_pn:start_ts="1668642895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_impact.cmd"/>
+      <outfile xil_pn:name="_impact.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1668637824" xil_pn:in_ck="-7539137150375462855" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1668637822">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

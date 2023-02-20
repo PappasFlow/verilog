@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+mux4a1_vm instance_name (
+    .q0(q0), 
+    .q1(q1), 
+    .q2(q2), 
+    .q3(q3), 
+    .s0(s0), 
+    .s1(s1), 
+    .out(out)
+    );
+
+

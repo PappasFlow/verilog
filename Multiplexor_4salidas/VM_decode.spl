@@ -1,0 +1,12 @@
+[Inputs]
+sel0
+sel1
+[Outputs]
+S0
+S1
+S2
+S3
+[BiDir]
+[ATTRIBUTES]
+VeriModel VM_decode
+

@@ -1,0 +1,5 @@
+set -tmpdir "D:/Documentos/Proyectos_Digitales/Practica/xst/projnav.tmp"
+set -xsthdpdir "D:/Documentos/Proyectos_Digitales/Practica/xst"
+elaborate
+-ifn VM_decode.prj
+-ifmt mixed

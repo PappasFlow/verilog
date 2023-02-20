@@ -1,0 +1,118 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL44PC | XC9572XL-5-PC44
+
+DEVICE | 9572XL | 9572XL44PC | 
+
+NETWORK | VM_prueba | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel0_IBUF | VM_prueba_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel0 | 184 | PI | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel0_IBUF | 177 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | sel0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel1_IBUF | VM_prueba_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel1 | 183 | PI | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel1_IBUF | 176 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | sel1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | D0_IBUF | VM_prueba_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | D0 | 185 | PI | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | D0_IBUF | 178 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | D1_IBUF | VM_prueba_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | D1 | 186 | PI | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | D1_IBUF | 179 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | D3_IBUF | VM_prueba_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | D3 | 188 | PI | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | D3_IBUF | 181 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | D2_IBUF | VM_prueba_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | D2 | 187 | PI | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | D2_IBUF | 180 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D2_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | OptxMapped | sal_OBUF | VM_prueba_COPY_0_COPY_0 | 2155872256 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel1_IBUF | 176 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | sel1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel0_IBUF | 177 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | sel0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D0_IBUF | 178 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D1_IBUF | 179 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D3_IBUF | 181 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D2_IBUF | 180 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | sal_OBUF | 175 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | sal_OBUF.Q | sal_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | sal_OBUF.SI | sal_OBUF | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel1_IBUF | 176 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | sel1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel0_IBUF | 177 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | sel0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D0_IBUF | 178 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D1_IBUF | 179 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D3_IBUF | 181 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D2_IBUF | 180 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | D2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | sal_OBUF.D1 | 190 | ? | 0 | 4096 | sal_OBUF | NULL | NULL | sal_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | sal_OBUF.D2 | 191 | ? | 0 | 4096 | sal_OBUF | NULL | NULL | sal_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | sel1_IBUF | IV_TRUE | sel0_IBUF | IV_TRUE | D3_IBUF
+SPPTERM | 3 | IV_TRUE | sel1_IBUF | IV_FALSE | sel0_IBUF | IV_TRUE | D2_IBUF
+SPPTERM | 3 | IV_FALSE | sel1_IBUF | IV_TRUE | sel0_IBUF | IV_TRUE | D1_IBUF
+SPPTERM | 3 | IV_FALSE | sel1_IBUF | IV_FALSE | sel0_IBUF | IV_TRUE | D0_IBUF
+
+SRFF_INSTANCE | sal_OBUF.REG | sal_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | sal_OBUF.D | 189 | ? | 0 | 0 | sal_OBUF | NULL | NULL | sal_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | sal_OBUF.Q | 192 | ? | 0 | 0 | sal_OBUF | NULL | NULL | sal_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | sal | VM_prueba_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | sal_OBUF | 175 | ? | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | sal_OBUF.Q | sal_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | sal | 182 | PO | 0 | 0 | VM_prueba_COPY_0_COPY_0 | NULL | NULL | sal | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | VM_prueba_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | sal_OBUF | 1 | NULL | 0 | sal | 1 | 1 | 49152
+
+FB_INSTANCE | FOOBAR2_ | VM_prueba_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 6 | NULL | 0 | D1_IBUF | 1 | NULL | 0 | 37 | 49152
+FBPIN | 9 | NULL | 0 | D2_IBUF | 1 | NULL | 0 | 39 | 51200
+FBPIN | 11 | NULL | 0 | D3_IBUF | 1 | NULL | 0 | 40 | 53248
+FBPIN | 15 | NULL | 0 | sel1_IBUF | 1 | NULL | 0 | 43 | 49152
+
+FB_INSTANCE | FOOBAR3_ | VM_prueba_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR4_ | VM_prueba_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 8 | NULL | 0 | sel0_IBUF | 1 | NULL | 0 | 27 | 49152
+FBPIN | 17 | NULL | 0 | D0_IBUF | 1 | NULL | 0 | 34 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | VM_prueba_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | D0 | 34 | 10 | D1 | 37 | 41 | sel0 | 27 | 45 | sel1 | 43 | 49 | D3 | 40
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 52 | D2 | 39
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 73 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 82 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 101 | -1 | -1 | -1 | 102 | -1 | -1 | -1 | 92 | -1 | -1 | 86 | -1
+

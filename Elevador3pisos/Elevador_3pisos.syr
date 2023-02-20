@@ -1,0 +1,262 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: Elevador_3pisos.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Elevador_3pisos.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Elevador_3pisos"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : Elevador_3pisos
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "display_controler.v" in library work
+Compiling verilog file "Elevador_3pisos.v" in library work
+Module <displa_controler_vm> compiled
+Module <Elevador_3pisos> compiled
+No errors in compilation
+Analysis of file <"Elevador_3pisos.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Elevador_3pisos> in library <work> with parameters.
+	e0 = "000"
+	e1 = "001"
+	e2 = "010"
+	e3 = "011"
+	e4 = "100"
+	e5 = "101"
+	e6 = "110"
+	e7 = "111"
+
+Analyzing hierarchy for module <displa_controler_vm> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Elevador_3pisos>.
+	e0 = 3'b000
+	e1 = 3'b001
+	e2 = 3'b010
+	e3 = 3'b011
+	e4 = 3'b100
+	e5 = 3'b101
+	e6 = 3'b110
+	e7 = 3'b111
+"Elevador_3pisos.v" line 44: Found FullParallel Case directive in module <Elevador_3pisos>.
+Module <Elevador_3pisos> is correct for synthesis.
+ 
+    Set property "FSM_ENCODING = SEQUENTIAL" for signal <state>.
+    Set property "SAFE_IMPLEMENTATION = NO" for signal <state>.
+Analyzing module <displa_controler_vm> in library <work>.
+Module <displa_controler_vm> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <displa_controler_vm>.
+    Related source file is "display_controler.v".
+Unit <displa_controler_vm> synthesized.
+
+
+Synthesizing Unit <Elevador_3pisos>.
+    Related source file is "Elevador_3pisos.v".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 25                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | sequential                                     |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <mdw>.
+    Found 1-bit register for signal <mup>.
+    Found 1-bit register for signal <d0>.
+    Found 1-bit register for signal <d1>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Elevador_3pisos> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ 1-bit register                                        : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Optimizing FSM <state/FSM> on signal <state[1:3]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 011   | 010
+ 010   | 011
+ 111   | 100
+ 110   | 101
+ 100   | 110
+ 101   | 111
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Elevador_3pisos> ...
+  implementation constraint: INIT=r	 : state_FSM_FFd1
+  implementation constraint: INIT=r	 : state_FSM_FFd2
+  implementation constraint: INIT=r	 : state_FSM_FFd3
+
+Optimizing unit <displa_controler_vm> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Elevador_3pisos.ngr
+Top Level Output File Name         : Elevador_3pisos
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 102
+#      AND2                        : 33
+#      AND3                        : 3
+#      AND4                        : 2
+#      GND                         : 1
+#      INV                         : 41
+#      OR2                         : 16
+#      OR3                         : 4
+#      XOR2                        : 2
+# FlipFlops/Latches                : 7
+#      FD                          : 7
+# IO Buffers                       : 18
+#      IBUF                        : 9
+#      OBUF                        : 9
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.29 secs
+ 
+--> 
+
+Total memory usage is 4497228 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

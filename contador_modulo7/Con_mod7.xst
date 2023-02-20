@@ -1,0 +1,5 @@
+set -tmpdir "D:/Documentos/Proyectos_Digitales/contador_modulo7/xst/projnav.tmp"
+set -xsthdpdir "D:/Documentos/Proyectos_Digitales/contador_modulo7/xst"
+elaborate
+-ifn Con_mod7.prj
+-ifmt mixed

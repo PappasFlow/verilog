@@ -1,0 +1,3 @@
+verilog work "divisor_frc_VM.v"
+verilog work "Test_divisor_frc.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

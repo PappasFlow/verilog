@@ -1,0 +1,1 @@
+xst -ise "C:/monta/monta.ise" -intstyle ise -ifn "C:/monta/FFD_vm.xst" -ofn "C:/monta/FFD_vm.syr"

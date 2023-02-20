@@ -1,0 +1,24 @@
+vhdtdtfi -lib work D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.v -lang verilog -prj Practica -o VM_prueba.spl -module VM_prueba -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl VM_prueba.spl D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.sym 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Practica/VM_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc VM_prueba.ucf -p xc9572xl-PC44-5 VM_prueba.ngc VM_prueba.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper VM_prueba.ngd 
+XSLTProcess VM_prueba_build.xml 
+tsim -intstyle ise VM_prueba VM_prueba.nga 
+taengine -intstyle ise -f VM_prueba -w --format html1 -l VM_prueba_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n VM_prueba -i VM_prueba 
+xst -intstyle ise -ifn "D:/Documentos/Proyectos_Digitales/Multiplexor_4salidas/VM_prueba.xst" -ofn "D:/Documentos/Proyectos_Digitales/Multiplexor_4salidas/VM_prueba.syr" 

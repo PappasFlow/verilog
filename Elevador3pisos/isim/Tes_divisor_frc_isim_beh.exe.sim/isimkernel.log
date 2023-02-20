@@ -1,0 +1,29 @@
+Command line:
+   Tes_divisor_frc_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65174
+
+Sun Oct 30 15:21:13 2022
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 5648.58 Meg
+
+ Total Signals          : 16
+ Total Nets             : 16
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 168
+Total Line Count : 33
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 5648.58 Meg
+
+Sun Oct 30 15:21:24 2022
+

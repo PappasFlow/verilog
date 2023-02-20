@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_pcFacu_mejoras/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/joaqu/Desktop/UTN/Tecnicas digitales I/elevador/Mejoras/Elevador_3pisos_pcFacu_mejoras/xst"
+elaborate
+-ifn Elevador_3pisos.prj
+-ifmt mixed

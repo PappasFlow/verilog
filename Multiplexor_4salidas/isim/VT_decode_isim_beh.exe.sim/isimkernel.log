@@ -1,0 +1,29 @@
+Command line:
+   VT_decode_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51596
+
+Mon Jul 18 21:42:45 2022
+
+
+ Elaboration Time: 0.359375 sec
+
+ Current Memory Usage: 5806.4 Meg
+
+ Total Signals          : 23
+ Total Nets             : 19
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 101
+Total Line Count : 27
+
+ Total Simulation Time: 0.515625 sec
+
+ Current Memory Usage: 4705.39 Meg
+
+Mon Jul 18 21:44:59 2022
+

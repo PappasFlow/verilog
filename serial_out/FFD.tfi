@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module FFD
+FFD instance_name (
+    .d(d), 
+    .q(q), 
+    .s(s), 
+    .r(r), 
+    .clk(clk)
+    );
+
+

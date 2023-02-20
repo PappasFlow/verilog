@@ -1,0 +1,19 @@
+MDF Database:  version 1.0
+MDF_INFO | VM_prueba | XC9572XL-5-PC44
+MACROCELL | 0 | 1 | sal_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 6 | sel1  | sel0  | D0  | D1  | D3  | D2
+INPUTP | 6 | 9 | 65 | 83 | 89 | 3 | 92
+EQ | 4 | 
+   sal = sel1 & sel0 & D3
+	# sel1 & !sel0 & D2
+	# !sel1 & sel0 & D1
+	# !sel1 & !sel0 & D0;
+
+PIN | sel0 | 64 | 0 | N/A | 65 | 1 | 0 | 1
+PIN | sel1 | 64 | 0 | N/A | 9 | 1 | 0 | 1
+PIN | D0 | 64 | 0 | N/A | 83 | 1 | 0 | 1
+PIN | D1 | 64 | 0 | N/A | 89 | 1 | 0 | 1
+PIN | D3 | 64 | 0 | N/A | 3 | 1 | 0 | 1
+PIN | D2 | 64 | 0 | N/A | 92 | 1 | 0 | 1
+PIN | sal | 536871040 | 0 | N/A | 11

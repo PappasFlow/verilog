@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+displa_controler_vm instance_name (
+    .a(a), 
+    .b(b), 
+    .c(c), 
+    .d(d), 
+    .e(e), 
+    .f(f), 
+    .g(g), 
+    .i0(i0), 
+    .i1(i1), 
+    .ip(ip), 
+    .clock(clock)
+    );
+
+

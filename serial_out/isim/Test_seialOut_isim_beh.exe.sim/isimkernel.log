@@ -1,0 +1,29 @@
+Command line:
+   Test_seialOut_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50888
+
+Tue Oct 25 10:44:14 2022
+
+
+ Elaboration Time: 0.3125 sec
+
+ Current Memory Usage: 5648.67 Meg
+
+ Total Signals          : 57
+ Total Nets             : 32
+ Total Signal Drivers   : 24
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 35
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 154
+Total Line Count : 79
+
+ Total Simulation Time: 1.90625 sec
+
+ Current Memory Usage: 4704.95 Meg
+
+Tue Oct 25 10:46:46 2022
+

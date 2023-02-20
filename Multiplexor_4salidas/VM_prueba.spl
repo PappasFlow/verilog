@@ -1,0 +1,13 @@
+[Inputs]
+sel0
+sel1
+D0
+D1
+D2
+D3
+[Outputs]
+sal
+[BiDir]
+[ATTRIBUTES]
+VeriModel VM_prueba
+

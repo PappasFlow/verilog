@@ -1,0 +1,977 @@
+MDF Database:  version 1.0
+MDF_INFO | Elevador_3pisos | XC9572XL-5-VQ64
+MACROCELL | 2 | 13 | clk_MD
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 14 | 2 | 13 | 2 | 0 | 0 | 2 | 1 | 1 | 2 | 7 | 2 | 4 | 2 | 1 | 0 | 16 | 0 | 14 | 0 | 9 | 3 | 4 | 3 | 1 | 1 | 5 | 1 | 9
+INPUTS | 8 | reset  | div_frec/count<0>  | div_frec/count<1>  | div_frec/count<2>  | div_frec/count<3>  | div_frec/count<4>  | clk_MD  | clk
+INPUTMC | 6 | 2 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10 | 2 | 13
+INPUTP | 2 | 38 | 9
+EQ | 4 | 
+   clk_MD.T = clk_MD & !reset
+	# reset & !div_frec/count<0> & div_frec/count<1> & 
+	!div_frec/count<2> & div_frec/count<3> & !div_frec/count<4>;
+   clk_MD.CLK = clk;
+
+MACROCELL | 3 | 16 | est_0
+ATTRIBUTES | 8651618 | 0
+OUTPUTMC | 1 | 3 | 17
+INPUTS | 10 | est_013  | clk  | reset  | s  | p2  | p1  | p3  | est_216  | BUF_D1<2>  | BUF_state_FSM_FFd1
+INPUTMC | 4 | 0 | 7 | 2 | 9 | 2 | 6 | 3 | 3
+INPUTP | 6 | 9 | 38 | 59 | 49 | 47 | 50
+EXPORTS | 1 | 3 | 17
+EQ | 5 | 
+   est<0>.D = est_013;
+   est<0>.CLK = clk;
+   est<0>.CE = reset;
+    est_0.EXP  =  !s & p2 & !p1 & !p3 & est_216 & BUF_D1<2> & 
+	BUF_state_FSM_FFd1
+
+MACROCELL | 2 | 2 | est_1
+ATTRIBUTES | 8651618 | 0
+INPUTS | 3 | est_114  | clk  | reset
+INPUTMC | 1 | 2 | 15
+INPUTP | 2 | 9 | 38
+EQ | 3 | 
+   est<1>.D = est_114;
+   est<1>.CLK = clk;
+   est<1>.CE = reset;
+
+MACROCELL | 1 | 4 | est_2
+ATTRIBUTES | 8651618 | 0
+INPUTS | 3 | est_216  | clk  | reset
+INPUTMC | 1 | 2 | 9
+INPUTP | 2 | 9 | 38
+EQ | 3 | 
+   est<2>.D = est_216;
+   est<2>.CLK = clk;
+   est<2>.CE = reset;
+
+MACROCELL | 0 | 1 | est_3
+ATTRIBUTES | 8651618 | 0
+INPUTS | 3 | est_315  | clk  | reset
+INPUTMC | 1 | 2 | 14
+INPUTP | 2 | 9 | 38
+EQ | 3 | 
+   est<3>.D = est_315;
+   est<3>.CLK = clk;
+   est<3>.CE = reset;
+
+MACROCELL | 0 | 3 | D1<3>
+ATTRIBUTES | 8782626 | 0
+OUTPUTMC | 2 | 2 | 1 | 0 | 16
+INPUTS | 2 | BUF_D1<3>  | clk
+INPUTMC | 1 | 0 | 0
+INPUTP | 1 | 9
+EQ | 2 | 
+   mdw.D = BUF_D1<3>;
+   mdw.CLK = clk;
+
+MACROCELL | 1 | 3 | state_FSM_FFd3
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 21 | 1 | 14 | 0 | 15 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 7 | 2 | 15 | 2 | 14 | 2 | 9 | 0 | 0 | 0 | 10 | 0 | 6 | 3 | 14 | 2 | 5 | 0 | 4 | 0 | 5 | 2 | 8 | 1 | 16 | 3 | 12 | 3 | 13 | 3 | 15
+INPUTS | 2 | BUF_state_FSM_FFd3  | clk
+INPUTMC | 1 | 3 | 14
+INPUTP | 1 | 9
+EQ | 2 | 
+   state_FSM_FFd3.D = BUF_state_FSM_FFd3;
+   state_FSM_FFd3.CLK = clk;
+
+MACROCELL | 1 | 14 | state_FSM_FFd4
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 25 | 1 | 14 | 0 | 15 | 0 | 13 | 0 | 12 | 0 | 17 | 0 | 11 | 0 | 7 | 2 | 15 | 2 | 14 | 0 | 0 | 0 | 10 | 0 | 6 | 3 | 14 | 2 | 5 | 0 | 4 | 0 | 5 | 3 | 3 | 1 | 15 | 1 | 17 | 0 | 16 | 1 | 12 | 1 | 13 | 3 | 1 | 3 | 12 | 3 | 17
+INPUTS | 13 | f2  | est_315  | BUF_state_FSM_FFd3  | state_FSM_FFd3  | state_FSM_FFd4  | f1  | BUF_D1<2>  | f3  | est_216  | mup_OBUF17  | EXP6_.EXP  | EXP7_.EXP  | clk
+INPUTMC | 9 | 2 | 14 | 3 | 14 | 1 | 3 | 1 | 14 | 2 | 6 | 2 | 9 | 0 | 4 | 1 | 13 | 1 | 15
+INPUTP | 4 | 52 | 16 | 54 | 9
+IMPORTS | 2 | 1 | 13 | 1 | 15
+EQ | 32 | 
+   state_FSM_FFd4.D = f3 & est_216 & mup_OBUF17
+	# f1 & state_FSM_FFd3 & BUF_D1<2>
+	# !f2 & est_315 & BUF_state_FSM_FFd3
+	# state_FSM_FFd3 & state_FSM_FFd4 & 
+	BUF_state_FSM_FFd3
+;Imported pterms FB2_14
+	# f1 & state_FSM_FFd1 & BUF_state_FSM_FFd2
+	# f1 & est_013 & !mup_OBUF17 & BUF_state_FSM_FFd2
+	# !p3 & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# state_FSM_FFd4 & !BUF_D1<2> & !BUF_D2<4> & 
+	!BUF_state_FSM_FFd2
+	# !BUF_state_FSM_FFd3 & !BUF_state_FSM_FFd1 & 
+	BUF_D1<1> & !BUF_state_FSM_FFd2
+;Imported pterms FB2_13
+	# s & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+	# !p2 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+	# p1 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+;Imported pterms FB2_16
+	# s & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# p2 & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# p1 & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# !f3 & state_FSM_FFd4 & state_FSM_FFd2 & 
+	!BUF_state_FSM_FFd1 & BUF_state_FSM_FFd2
+	# p3 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+;Imported pterms FB2_17
+	# !f3 & !s & !p2 & !p1 & p3 & state_FSM_FFd3 & 
+	state_FSM_FFd2 & !BUF_D2<2>;
+   state_FSM_FFd4.CLK = clk;
+
+MACROCELL | 1 | 6 | state_FSM_FFd2
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 20 | 3 | 0 | 0 | 15 | 0 | 13 | 0 | 12 | 0 | 17 | 0 | 11 | 0 | 7 | 2 | 15 | 2 | 14 | 0 | 0 | 0 | 10 | 0 | 6 | 3 | 12 | 2 | 6 | 2 | 5 | 0 | 4 | 0 | 5 | 1 | 15 | 1 | 16 | 3 | 17
+INPUTS | 2 | BUF_state_FSM_FFd2  | clk
+INPUTMC | 1 | 3 | 0
+INPUTP | 1 | 9
+EQ | 2 | 
+   state_FSM_FFd2.D = BUF_state_FSM_FFd2;
+   state_FSM_FFd2.CLK = clk;
+
+MACROCELL | 1 | 7 | state_FSM_FFd1
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 21 | 1 | 13 | 0 | 15 | 0 | 13 | 0 | 12 | 0 | 17 | 0 | 11 | 0 | 8 | 0 | 7 | 2 | 15 | 2 | 14 | 2 | 9 | 0 | 0 | 0 | 10 | 0 | 6 | 2 | 6 | 2 | 5 | 0 | 4 | 0 | 5 | 3 | 2 | 2 | 8 | 0 | 16
+INPUTS | 2 | BUF_state_FSM_FFd1  | clk
+INPUTMC | 1 | 3 | 3
+INPUTP | 1 | 9
+EQ | 2 | 
+   state_FSM_FFd1.D = BUF_state_FSM_FFd1;
+   state_FSM_FFd1.CLK = clk;
+
+MACROCELL | 2 | 0 | state_mux_FSM_FFd2
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 13 | 2 | 0 | 0 | 2 | 1 | 1 | 2 | 7 | 2 | 4 | 2 | 1 | 0 | 16 | 0 | 14 | 0 | 9 | 3 | 1 | 1 | 5 | 1 | 9 | 2 | 3
+INPUTS | 3 | reset  | state_mux_FSM_FFd2  | clk_MD
+INPUTMC | 2 | 2 | 0 | 2 | 13
+INPUTP | 1 | 38
+EQ | 2 | 
+   state_mux_FSM_FFd2.D = reset & !state_mux_FSM_FFd2;
+   state_mux_FSM_FFd2.CLK = clk_MD;
+
+MACROCELL | 0 | 2 | state_mux_FSM_FFd1
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 12 | 0 | 2 | 1 | 1 | 2 | 7 | 2 | 4 | 2 | 1 | 0 | 16 | 0 | 14 | 0 | 9 | 3 | 1 | 1 | 5 | 1 | 9 | 2 | 3
+INPUTS | 4 | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | clk_MD
+INPUTMC | 3 | 2 | 0 | 0 | 2 | 2 | 13
+INPUTP | 1 | 38
+EQ | 3 | 
+   state_mux_FSM_FFd1.D = reset & state_mux_FSM_FFd2 & !state_mux_FSM_FFd1
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1;
+   state_mux_FSM_FFd1.CLK = clk_MD;
+
+MACROCELL | 3 | 6 | D2<5>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 5 | 2 | 7 | 2 | 4 | 2 | 1 | 0 | 14 | 0 | 9
+INPUTS | 2 | BUF_D2<5>  | clk
+INPUTMC | 1 | 0 | 10
+INPUTP | 1 | 9
+EQ | 2 | 
+   !D2<5>.D = BUF_D2<5>;
+   D2<5>.CLK = clk;
+
+MACROCELL | 2 | 12 | div_frec/count<0>
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 6 | 2 | 13 | 2 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10
+INPUTS | 7 | reset  | div_frec/count<0>  | div_frec/count<1>  | div_frec/count<2>  | div_frec/count<3>  | div_frec/count<4>  | clk
+INPUTMC | 5 | 2 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10
+INPUTP | 2 | 38 | 9
+EQ | 4 | 
+   !div_frec/count<0>.T = !reset & !div_frec/count<0>
+	# !div_frec/count<0> & div_frec/count<1> & 
+	!div_frec/count<2> & div_frec/count<3> & !div_frec/count<4>;
+   div_frec/count<0>.CLK = clk;
+
+MACROCELL | 0 | 15 | D0<0>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 2 | 0 | 15 | 1 | 1
+INPUTS | 7 | reset  | state_FSM_FFd4  | state_FSM_FFd1  | D0<0>  | state_FSM_FFd3  | state_FSM_FFd2  | clk
+INPUTMC | 5 | 1 | 14 | 1 | 7 | 0 | 15 | 1 | 3 | 1 | 6
+INPUTP | 2 | 38 | 9
+EQ | 8 | 
+   !D0<0>.D = reset & !state_FSM_FFd3 & state_FSM_FFd4 & 
+	!state_FSM_FFd1
+	# reset & state_FSM_FFd4 & !state_FSM_FFd1 & !D0<0>
+	# reset & state_FSM_FFd3 & !state_FSM_FFd4 & 
+	!state_FSM_FFd2 & !state_FSM_FFd1
+	# reset & !state_FSM_FFd3 & state_FSM_FFd2 & 
+	!state_FSM_FFd1 & !D0<0>;
+   D0<0>.CLK = clk;
+
+MACROCELL | 0 | 13 | D0<2>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 2 | 0 | 13 | 2 | 4
+INPUTS | 10 | state_FSM_FFd4  | state_FSM_FFd2  | BUF_D1<1>  | D0<2>  | BUF_D1<3>  | BUF_D2<1>  | state_FSM_FFd3  | state_FSM_FFd1  | BUF_D2<2>  | clk
+INPUTMC | 9 | 1 | 14 | 1 | 6 | 2 | 8 | 0 | 13 | 0 | 0 | 2 | 5 | 1 | 3 | 1 | 7 | 3 | 10
+INPUTP | 1 | 9
+EQ | 7 | 
+   D0<2>.D = !state_FSM_FFd4 & state_FSM_FFd2 & BUF_D1<1>
+	# state_FSM_FFd3 & !state_FSM_FFd4 & state_FSM_FFd1 & 
+	!BUF_D2<2>
+	# !state_FSM_FFd3 & !state_FSM_FFd2 & state_FSM_FFd1 & 
+	!BUF_D2<2>
+	# D0<2> & !BUF_D1<3> & !BUF_D2<1> & !BUF_D1<1>;
+   D0<2>.CLK = clk;
+
+MACROCELL | 0 | 12 | D0<3>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 2 | 0 | 12 | 2 | 1
+INPUTS | 10 | state_FSM_FFd1  | BUF_D2<2>  | state_FSM_FFd4  | state_FSM_FFd2  | BUF_D2<4>  | D0<3>  | state_FSM_FFd3  | BUF_D2<1>  | mup_OBUF17  | clk
+INPUTMC | 9 | 1 | 7 | 3 | 10 | 1 | 14 | 1 | 6 | 0 | 5 | 0 | 12 | 1 | 3 | 2 | 5 | 0 | 4
+INPUTP | 1 | 9
+EQ | 6 | 
+   D0<3>.D = state_FSM_FFd1 & !BUF_D2<2>
+	# !state_FSM_FFd4 & state_FSM_FFd2 & !BUF_D2<4>
+	# state_FSM_FFd3 & D0<3> & !BUF_D2<1> & !mup_OBUF17
+	# !state_FSM_FFd4 & state_FSM_FFd2 & D0<3> & 
+	!BUF_D2<2>;
+   D0<3>.CLK = clk;
+
+MACROCELL | 0 | 17 | D0<4>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 2 | 0 | 17 | 0 | 16
+INPUTS | 10 | state_FSM_FFd2  | BUF_D1<3>  | state_FSM_FFd4  | BUF_D1<2>  | state_FSM_FFd1  | BUF_D2<2>  | D0<4>  | BUF_D2<3>  | D_out_4.EXP  | clk
+INPUTMC | 9 | 1 | 6 | 0 | 0 | 1 | 14 | 2 | 6 | 1 | 7 | 3 | 10 | 0 | 17 | 0 | 6 | 0 | 16
+INPUTP | 1 | 9
+IMPORTS | 1 | 0 | 16
+EQ | 8 | 
+   D0<4>.D = state_FSM_FFd4 & BUF_D1<2>
+	# state_FSM_FFd2 & BUF_D1<3>
+	# !state_FSM_FFd2 & !state_FSM_FFd1 & !BUF_D2<2>
+	# D0<4> & BUF_D2<3> & !BUF_D2<2>
+;Imported pterms FB1_17
+	# state_FSM_FFd4 & !state_FSM_FFd1 & D0<4> & 
+	!BUF_D2<1>;
+   D0<4>.CLK = clk;
+
+MACROCELL | 0 | 11 | D0<6>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 2 | 0 | 11 | 0 | 9
+INPUTS | 10 | state_FSM_FFd1  | BUF_D2<2>  | state_FSM_FFd4  | state_FSM_FFd2  | BUF_D2<4>  | D0<6>  | state_FSM_FFd3  | BUF_D2<1>  | mup_OBUF17  | clk
+INPUTMC | 9 | 1 | 7 | 3 | 10 | 1 | 14 | 1 | 6 | 0 | 5 | 0 | 11 | 1 | 3 | 2 | 5 | 0 | 4
+INPUTP | 1 | 9
+EQ | 6 | 
+   D0<6>.D = state_FSM_FFd1 & !BUF_D2<2>
+	# !state_FSM_FFd4 & state_FSM_FFd2 & !BUF_D2<4>
+	# state_FSM_FFd3 & D0<6> & !BUF_D2<1> & !mup_OBUF17
+	# !state_FSM_FFd4 & state_FSM_FFd2 & D0<6> & 
+	!BUF_D2<2>;
+   D0<6>.CLK = clk;
+
+MACROCELL | 1 | 12 | D1<1>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 4 | 2 | 7 | 0 | 14 | 0 | 9 | 1 | 13
+INPUTS | 9 | BUF_D1<1>  | clk  | s  | f2  | state_FSM_FFd4  | est_013  | BUF_D1<2>  | p2  | p1
+INPUTMC | 4 | 2 | 8 | 1 | 14 | 0 | 7 | 2 | 6
+INPUTP | 5 | 9 | 59 | 52 | 49 | 47
+EXPORTS | 1 | 1 | 13
+EQ | 5 | 
+   D1<1>.D = BUF_D1<1>;
+   D1<1>.CLK = clk;
+    D1<1>.EXP  =  s & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+	# !p2 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+	# p1 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+
+MACROCELL | 2 | 17 | div_frec/count<1>
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 6 | 2 | 13 | 2 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10
+INPUTS | 7 | div_frec/count<1>  | div_frec/count<2>  | div_frec/count<3>  | div_frec/count<4>  | reset  | div_frec/count<0>  | clk
+INPUTMC | 5 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10 | 2 | 12
+INPUTP | 2 | 38 | 9
+EQ | 5 | 
+   div_frec/count<1>.T = reset & div_frec/count<0>
+	# !reset & div_frec/count<1>
+	# div_frec/count<1> & !div_frec/count<2> & 
+	div_frec/count<3> & !div_frec/count<4>;
+   div_frec/count<1>.CLK = clk;
+
+MACROCELL | 2 | 11 | div_frec/count<2>
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 6 | 2 | 13 | 2 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10
+INPUTS | 5 | reset  | div_frec/count<0>  | div_frec/count<1>  | div_frec/count<2>  | clk
+INPUTMC | 3 | 2 | 12 | 2 | 17 | 2 | 11
+INPUTP | 2 | 38 | 9
+EQ | 3 | 
+   div_frec/count<2>.T = !reset & div_frec/count<2>
+	# reset & div_frec/count<0> & div_frec/count<1>;
+   div_frec/count<2>.CLK = clk;
+
+MACROCELL | 2 | 16 | div_frec/count<3>
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 5 | 2 | 13 | 2 | 12 | 2 | 17 | 2 | 16 | 2 | 10
+INPUTS | 7 | div_frec/count<0>  | div_frec/count<1>  | div_frec/count<2>  | div_frec/count<3>  | div_frec/count<4>  | reset  | clk
+INPUTMC | 5 | 2 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10
+INPUTP | 2 | 38 | 9
+EQ | 6 | 
+   div_frec/count<3>.T = !reset & div_frec/count<3>
+	# reset & div_frec/count<0> & div_frec/count<1> & 
+	div_frec/count<2>
+	# !div_frec/count<0> & div_frec/count<1> & 
+	!div_frec/count<2> & div_frec/count<3> & !div_frec/count<4>;
+   div_frec/count<3>.CLK = clk;
+
+MACROCELL | 0 | 8 | D0<5>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 2 | 0 | 8 | 0 | 14
+INPUTS | 6 | BUF_D2<5>  | D0<5>  | BUF_D2<1>  | state_FSM_FFd1  | BUF_D2<2>  | clk
+INPUTMC | 5 | 0 | 10 | 0 | 8 | 2 | 5 | 1 | 7 | 3 | 10
+INPUTP | 1 | 9
+EQ | 4 | 
+   D0<5>.D = BUF_D2<5>
+	# state_FSM_FFd1 & !BUF_D2<2>
+	# D0<5> & !BUF_D2<1>;
+   D0<5>.CLK = clk;
+
+MACROCELL | 3 | 7 | D2<3>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 2 | 2 | 1 | 0 | 9
+INPUTS | 2 | BUF_D2<3>  | clk
+INPUTMC | 1 | 0 | 6
+INPUTP | 1 | 9
+EQ | 2 | 
+   D2<3>.D = BUF_D2<3>;
+   D2<3>.CLK = clk;
+
+MACROCELL | 2 | 10 | div_frec/count<4>
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 5 | 2 | 13 | 2 | 12 | 2 | 17 | 2 | 16 | 2 | 10
+INPUTS | 7 | reset  | div_frec/count<0>  | div_frec/count<1>  | div_frec/count<2>  | div_frec/count<3>  | div_frec/count<4>  | clk
+INPUTMC | 5 | 2 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10
+INPUTP | 2 | 38 | 9
+EQ | 4 | 
+   div_frec/count<4>.T = !reset & div_frec/count<4>
+	# reset & div_frec/count<0> & div_frec/count<1> & 
+	div_frec/count<2> & div_frec/count<3>;
+   div_frec/count<4>.CLK = clk;
+
+MACROCELL | 1 | 11 | D1<2>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 2 | 4
+INPUTS | 2 | BUF_D1<2>  | clk
+INPUTMC | 1 | 2 | 6
+INPUTP | 1 | 9
+EQ | 2 | 
+   D1<2>.D = BUF_D1<2>;
+   D1<2>.CLK = clk;
+
+MACROCELL | 3 | 9 | D2<0>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 2 | BUF_D2<0>  | clk
+INPUTMC | 1 | 1 | 17
+INPUTP | 1 | 9
+EQ | 2 | 
+   !D2<0>.D = BUF_D2<0>;
+   D2<0>.CLK = clk;
+
+MACROCELL | 3 | 8 | D2<1>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 2 | 7
+INPUTS | 2 | BUF_D2<1>  | clk
+INPUTMC | 1 | 2 | 5
+INPUTP | 1 | 9
+EQ | 2 | 
+   D2<1>.D = BUF_D2<1>;
+   D2<1>.CLK = clk;
+
+MACROCELL | 1 | 10 | D2<2>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 2 | 4
+INPUTS | 2 | BUF_D2<2>  | clk
+INPUTMC | 1 | 3 | 10
+INPUTP | 1 | 9
+EQ | 2 | 
+   D2<2>.D = BUF_D2<2>;
+   D2<2>.CLK = clk;
+
+MACROCELL | 1 | 8 | D2<4>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 2 | BUF_D2<4>  | clk
+INPUTMC | 1 | 0 | 5
+INPUTP | 1 | 9
+EQ | 2 | 
+   D2<4>.D = BUF_D2<4>;
+   D2<4>.CLK = clk;
+
+MACROCELL | 1 | 1 | D_out_0
+ATTRIBUTES | 8651554 | 0
+INPUTS | 8 | D0<0>  | E_dis_018  | state_mux_FSM_FFd2  | D1<0>  | reset  | state_mux_FSM_FFd1  | D2<0>  | clk_MD
+INPUTMC | 7 | 0 | 15 | 2 | 3 | 2 | 0 | 1 | 2 | 0 | 2 | 3 | 9 | 2 | 13
+INPUTP | 1 | 38
+EQ | 5 | 
+   D_out<0>.D = D0<0> & E_dis_018
+	# state_mux_FSM_FFd2 & D1<0> & !E_dis_018
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<0>;
+   D_out<0>.CLK = clk_MD;
+
+MACROCELL | 2 | 7 | D_out_1
+ATTRIBUTES | 8651554 | 0
+INPUTS | 7 | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | D1<1>  | D2<1>  | D2<5>  | clk_MD
+INPUTMC | 6 | 2 | 0 | 0 | 2 | 1 | 12 | 3 | 8 | 3 | 6 | 2 | 13
+INPUTP | 1 | 38
+EQ | 7 | 
+   D_out<1>.D = reset & state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<5>
+	# reset & state_mux_FSM_FFd2 & !state_mux_FSM_FFd1 & 
+	D1<1>
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<1>;
+   D_out<1>.CLK = clk_MD;
+
+MACROCELL | 2 | 4 | D_out_2
+ATTRIBUTES | 8651554 | 0
+INPUTS | 9 | D0<2>  | E_dis_018  | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | D1<2>  | D2<2>  | D2<5>  | clk_MD
+INPUTMC | 8 | 0 | 13 | 2 | 3 | 2 | 0 | 0 | 2 | 1 | 11 | 1 | 10 | 3 | 6 | 2 | 13
+INPUTP | 1 | 38
+EQ | 8 | 
+   D_out<2>.D = D0<2> & E_dis_018
+	# reset & state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<5>
+	# reset & state_mux_FSM_FFd2 & !state_mux_FSM_FFd1 & 
+	D1<2>
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<2>;
+   D_out<2>.CLK = clk_MD;
+
+MACROCELL | 2 | 1 | D_out_3
+ATTRIBUTES | 8651554 | 0
+INPUTS | 9 | D0<3>  | E_dis_018  | reset  | mdw  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | D2<3>  | D2<5>  | clk_MD
+INPUTMC | 8 | 0 | 12 | 2 | 3 | 0 | 3 | 2 | 0 | 0 | 2 | 3 | 7 | 3 | 6 | 2 | 13
+INPUTP | 1 | 38
+EQ | 8 | 
+   D_out<3>.D = D0<3> & E_dis_018
+	# reset & mdw & state_mux_FSM_FFd2 & 
+	!state_mux_FSM_FFd1
+	# reset & state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<5>
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<3>;
+   D_out<3>.CLK = clk_MD;
+
+MACROCELL | 0 | 16 | D_out_4
+ATTRIBUTES | 8651554 | 0
+OUTPUTMC | 1 | 0 | 17
+INPUTS | 11 | D0<4>  | E_dis_018  | reset  | mdw  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | D2<4>  | clk_MD  | state_FSM_FFd4  | state_FSM_FFd1  | BUF_D2<1>
+INPUTMC | 10 | 0 | 17 | 2 | 3 | 0 | 3 | 2 | 0 | 0 | 2 | 1 | 8 | 2 | 13 | 1 | 14 | 1 | 7 | 2 | 5
+INPUTP | 1 | 38
+EXPORTS | 1 | 0 | 17
+EQ | 8 | 
+   D_out<4>.D = D0<4> & E_dis_018
+	# reset & mdw & state_mux_FSM_FFd2 & 
+	!state_mux_FSM_FFd1
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<4>;
+   D_out<4>.CLK = clk_MD;
+    D_out_4.EXP  =  state_FSM_FFd4 & !state_FSM_FFd1 & D0<4> & 
+	!BUF_D2<1>
+
+MACROCELL | 0 | 14 | D_out_5
+ATTRIBUTES | 8651554 | 0
+INPUTS | 8 | D0<5>  | E_dis_018  | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | D1<1>  | D2<5>  | clk_MD
+INPUTMC | 7 | 0 | 8 | 2 | 3 | 2 | 0 | 0 | 2 | 1 | 12 | 3 | 6 | 2 | 13
+INPUTP | 1 | 38
+EQ | 6 | 
+   D_out<5>.D = D0<5> & E_dis_018
+	# reset & state_mux_FSM_FFd2 & !state_mux_FSM_FFd1 & 
+	D1<1>
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<5>;
+   D_out<5>.CLK = clk_MD;
+
+MACROCELL | 0 | 9 | D_out_6
+ATTRIBUTES | 8651554 | 0
+INPUTS | 9 | D0<6>  | E_dis_018  | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | D1<1>  | D2<3>  | D2<5>  | clk_MD
+INPUTMC | 8 | 0 | 11 | 2 | 3 | 2 | 0 | 0 | 2 | 1 | 12 | 3 | 7 | 3 | 6 | 2 | 13
+INPUTP | 1 | 38
+EQ | 8 | 
+   D_out<6>.D = D0<6> & E_dis_018
+	# reset & state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<5>
+	# reset & state_mux_FSM_FFd2 & !state_mux_FSM_FFd1 & 
+	D1<1>
+	# reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1 & 
+	D2<3>;
+   D_out<6>.CLK = clk_MD;
+
+MACROCELL | 3 | 4 | E_dis_0
+ATTRIBUTES | 8651554 | 0
+OUTPUTMC | 1 | 3 | 3
+INPUTS | 11 | E_dis_018  | clk_MD  | f3  | f1  | s  | p2  | p1  | p3  | est_013  | est_114  | BUF_D1<2>
+INPUTMC | 5 | 2 | 3 | 2 | 13 | 0 | 7 | 2 | 15 | 2 | 6
+INPUTP | 6 | 54 | 16 | 59 | 49 | 47 | 50
+EXPORTS | 1 | 3 | 3
+EQ | 4 | 
+   !E_dis<0>.D = E_dis_018;
+   E_dis<0>.CLK = clk_MD;
+    E_dis_0.EXP  =  !f3 & !f1 & !s & !p2 & p1 & !p3 & !est_013 & 
+	est_114 & BUF_D1<2>
+
+MACROCELL | 3 | 1 | E_dis_1
+ATTRIBUTES | 8651554 | 0
+OUTPUTMC | 1 | 3 | 0
+INPUTS | 16 | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | clk_MD  | f3  | f1  | f2  | BUF_D2<0>  | state_FSM_FFd4  | BUF_state_FSM_FFd1  | s  | p2  | p1  | p3  | est_216  | BUF_D1<2>
+INPUTMC | 8 | 2 | 0 | 0 | 2 | 2 | 13 | 1 | 17 | 1 | 14 | 3 | 3 | 2 | 9 | 2 | 6
+INPUTP | 8 | 38 | 54 | 16 | 52 | 59 | 49 | 47 | 50
+EXPORTS | 1 | 3 | 0
+EQ | 6 | 
+   !E_dis<1>.D = reset & state_mux_FSM_FFd2 & !state_mux_FSM_FFd1;
+   E_dis<1>.CLK = clk_MD;
+    E_dis_1.EXP  =  !f3 & f1 & !f2 & reset & BUF_D2<0>
+	# !f3 & !f1 & f2 & reset & !state_FSM_FFd4 & 
+	!BUF_state_FSM_FFd1
+	# !s & !p2 & p1 & !p3 & !f2 & est_216 & BUF_D1<2>
+
+MACROCELL | 1 | 5 | E_dis_2
+ATTRIBUTES | 8651554 | 0
+INPUTS | 4 | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | clk_MD
+INPUTMC | 3 | 2 | 0 | 0 | 2 | 2 | 13
+INPUTP | 1 | 38
+EQ | 2 | 
+   !E_dis<2>.D = reset & !state_mux_FSM_FFd2 & state_mux_FSM_FFd1;
+   E_dis<2>.CLK = clk_MD;
+
+MACROCELL | 1 | 9 | E_dis_3
+ATTRIBUTES | 8651554 | 0
+INPUTS | 4 | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1  | clk_MD
+INPUTMC | 3 | 2 | 0 | 0 | 2 | 2 | 13
+INPUTP | 1 | 38
+EQ | 2 | 
+   !E_dis<3>.D = reset & state_mux_FSM_FFd2 & state_mux_FSM_FFd1;
+   E_dis<3>.CLK = clk_MD;
+
+MACROCELL | 1 | 16 | mup_OBUF
+ATTRIBUTES | 8651554 | 0
+OUTPUTMC | 1 | 1 | 15
+INPUTS | 10 | mup_OBUF17  | clk  | f3  | s  | p2  | p1  | p3  | state_FSM_FFd3  | state_FSM_FFd2  | BUF_D2<2>
+INPUTMC | 4 | 0 | 4 | 1 | 3 | 1 | 6 | 3 | 10
+INPUTP | 6 | 9 | 54 | 59 | 49 | 47 | 50
+EXPORTS | 1 | 1 | 15
+EQ | 4 | 
+   mup.D = mup_OBUF17;
+   mup.CLK = clk;
+    mup_OBUF.EXP  =  !f3 & !s & !p2 & !p1 & p3 & state_FSM_FFd3 & 
+	state_FSM_FFd2 & !BUF_D2<2>
+
+MACROCELL | 1 | 2 | D1<0>
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 1 | clk
+INPUTP | 1 | 9
+EQ | 2 | 
+   D1<0>.D = Vcc;
+   D1<0>.CLK = clk;
+
+MACROCELL | 0 | 7 | est_013
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 11 | 3 | 16 | 1 | 13 | 3 | 14 | 3 | 3 | 3 | 0 | 1 | 12 | 1 | 15 | 3 | 2 | 3 | 4 | 3 | 12 | 3 | 13
+INPUTS | 6 | state_FSM_FFd2  | state_FSM_FFd1  | state_FSM_FFd3  | est_114  | est_315  | state_FSM_FFd4
+INPUTMC | 6 | 1 | 6 | 1 | 7 | 1 | 3 | 2 | 15 | 2 | 14 | 1 | 14
+EQ | 5 | 
+   est_013 = state_FSM_FFd2 & state_FSM_FFd1
+	# state_FSM_FFd3 & est_114 & est_315
+	# !state_FSM_FFd4 & !state_FSM_FFd2 & !state_FSM_FFd1
+	# state_FSM_FFd4 & !state_FSM_FFd2 & !est_114 & 
+	!est_315;
+
+MACROCELL | 2 | 15 | est_114
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 10 | 2 | 2 | 0 | 7 | 2 | 9 | 3 | 13 | 3 | 10 | 3 | 3 | 3 | 0 | 3 | 2 | 3 | 4 | 3 | 15
+INPUTS | 4 | state_FSM_FFd3  | state_FSM_FFd2  | state_FSM_FFd4  | state_FSM_FFd1
+INPUTMC | 4 | 1 | 3 | 1 | 6 | 1 | 14 | 1 | 7
+EQ | 5 | 
+   est_114 = state_FSM_FFd3 & state_FSM_FFd2
+	# !state_FSM_FFd4 & state_FSM_FFd2
+	# state_FSM_FFd3 & !state_FSM_FFd4 & !state_FSM_FFd1
+	# !state_FSM_FFd3 & state_FSM_FFd4 & !state_FSM_FFd2 & 
+	state_FSM_FFd1;
+
+MACROCELL | 2 | 14 | est_315
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 4 | 0 | 1 | 1 | 14 | 0 | 7 | 2 | 9
+INPUTS | 4 | state_FSM_FFd3  | state_FSM_FFd4  | state_FSM_FFd2  | state_FSM_FFd1
+INPUTMC | 4 | 1 | 3 | 1 | 14 | 1 | 6 | 1 | 7
+EQ | 4 | 
+   est_315 = state_FSM_FFd3 & state_FSM_FFd4 & !state_FSM_FFd1
+	# !state_FSM_FFd3 & !state_FSM_FFd4 & !state_FSM_FFd2
+	# !state_FSM_FFd3 & !state_FSM_FFd4 & !state_FSM_FFd1
+	# state_FSM_FFd4 & state_FSM_FFd2 & state_FSM_FFd1;
+
+MACROCELL | 2 | 9 | est_216
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 10 | 1 | 4 | 1 | 14 | 3 | 14 | 3 | 3 | 3 | 1 | 3 | 2 | 3 | 12 | 3 | 15 | 3 | 16 | 3 | 17
+INPUTS | 4 | state_FSM_FFd1  | est_114  | est_315  | state_FSM_FFd3
+INPUTMC | 4 | 1 | 7 | 2 | 15 | 2 | 14 | 1 | 3
+EQ | 3 | 
+   est_216 = state_FSM_FFd3 & state_FSM_FFd1
+	# state_FSM_FFd1 & !est_315
+	# !state_FSM_FFd1 & !est_114 & est_315;
+
+MACROCELL | 0 | 0 | BUF_D1<3>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 8 | 0 | 3 | 0 | 13 | 0 | 17 | 3 | 13 | 3 | 3 | 2 | 8 | 3 | 0 | 1 | 17
+INPUTS | 6 | state_FSM_FFd3  | state_FSM_FFd4  | BUF_D2<5>  | state_FSM_FFd2  | state_FSM_FFd1  | BUF_D2<3>
+INPUTMC | 6 | 1 | 3 | 1 | 14 | 0 | 10 | 1 | 6 | 1 | 7 | 0 | 6
+EQ | 2 | 
+   BUF_D1<3> = !state_FSM_FFd3 & !state_FSM_FFd4 & BUF_D2<5>
+	# state_FSM_FFd2 & state_FSM_FFd1 & !BUF_D2<3>;
+
+MACROCELL | 0 | 10 | BUF_D2<5>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 5 | 3 | 6 | 0 | 8 | 0 | 0 | 3 | 14 | 3 | 2
+INPUTS | 5 | reset  | state_FSM_FFd3  | state_FSM_FFd1  | state_FSM_FFd4  | state_FSM_FFd2
+INPUTMC | 4 | 1 | 3 | 1 | 7 | 1 | 14 | 1 | 6
+INPUTP | 1 | 38
+EQ | 4 | 
+   BUF_D2<5> = reset & state_FSM_FFd3 & !state_FSM_FFd4
+	# reset & !state_FSM_FFd3 & state_FSM_FFd4
+	# reset & !state_FSM_FFd3 & state_FSM_FFd1
+	# reset & !state_FSM_FFd2 & state_FSM_FFd1;
+
+MACROCELL | 0 | 6 | BUF_D2<3>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 4 | 0 | 17 | 3 | 7 | 0 | 0 | 3 | 10
+INPUTS | 5 | reset  | state_FSM_FFd3  | state_FSM_FFd4  | state_FSM_FFd1  | state_FSM_FFd2
+INPUTMC | 4 | 1 | 3 | 1 | 14 | 1 | 7 | 1 | 6
+INPUTP | 1 | 38
+EQ | 4 | 
+   BUF_D2<3> = !reset
+	# !state_FSM_FFd3 & !state_FSM_FFd4 & !state_FSM_FFd1
+	# state_FSM_FFd3 & state_FSM_FFd4 & !state_FSM_FFd2 & 
+	!state_FSM_FFd1;
+
+MACROCELL | 3 | 14 | BUF_state_FSM_FFd3
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 4 | 1 | 3 | 1 | 14 | 1 | 13 | 1 | 15
+INPUTS | 15 | f3  | BUF_D1<2>  | BUF_state_FSM_FFd1  | f2  | est_013  | BUF_state_FSM_FFd2  | state_FSM_FFd3  | BUF_D2<5>  | BUF_D2<1>  | est_216  | BUF_D1<1>  | state_FSM_FFd4  | mup_OBUF17  | EXP10_.EXP  | EXP11_.EXP
+INPUTMC | 13 | 2 | 6 | 3 | 3 | 0 | 7 | 3 | 0 | 1 | 3 | 0 | 10 | 2 | 5 | 2 | 9 | 2 | 8 | 1 | 14 | 0 | 4 | 3 | 13 | 3 | 15
+INPUTP | 2 | 54 | 52
+IMPORTS | 2 | 3 | 13 | 3 | 15
+EQ | 29 | 
+   BUF_state_FSM_FFd3 = f3 & !BUF_D1<2> & BUF_state_FSM_FFd1
+	# f2 & est_013 & BUF_state_FSM_FFd2
+	# state_FSM_FFd3 & !BUF_D2<5> & !BUF_D2<1>
+	# !state_FSM_FFd4 & est_216 & mup_OBUF17
+	# est_216 & !BUF_state_FSM_FFd1 & BUF_D1<1>
+;Imported pterms FB4_14
+	# f1 & state_FSM_FFd3 & BUF_D1<2>
+	# est_013 & BUF_D1<3> & !BUF_state_FSM_FFd1
+	# !f3 & state_FSM_FFd3 & est_114 & 
+	BUF_state_FSM_FFd2
+	# !p2 & f2 & !est_114 & BUF_D1<1>
+	# p3 & BUF_D1<2> & !BUF_state_FSM_FFd1 & 
+	!BUF_state_FSM_FFd2
+;Imported pterms FB4_13
+	# f2 & state_FSM_FFd3 & !state_FSM_FFd2 & 
+	!BUF_D2<0>
+	# !f3 & !p2 & !state_FSM_FFd4 & !BUF_state_FSM_FFd1 & 
+	BUF_D1<1>
+	# !f3 & p3 & state_FSM_FFd3 & !state_FSM_FFd2 & 
+	!BUF_D2<0>
+	# !p2 & !p1 & est_013 & est_216 & BUF_D1<1>
+	# p1 & state_FSM_FFd3 & est_013 & 
+	!BUF_state_FSM_FFd2 & !BUF_D2<0>
+;Imported pterms FB4_16
+	# f3 & p3 & est_216 & BUF_D1<1>
+	# !f3 & s & state_FSM_FFd3 & !BUF_D2<0>
+	# s & f2 & !est_114 & BUF_D1<1>
+	# s & state_FSM_FFd3 & est_216 & BUF_D1<1>
+	# p1 & f2 & !est_114 & BUF_D1<1>;
+
+MACROCELL | 2 | 6 | BUF_D1<2>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 13 | 1 | 14 | 0 | 17 | 1 | 11 | 3 | 14 | 3 | 2 | 1 | 15 | 1 | 12 | 1 | 13 | 3 | 1 | 3 | 4 | 3 | 13 | 3 | 16 | 3 | 17
+INPUTS | 5 | state_FSM_FFd2  | BUF_D2<4>  | state_FSM_FFd1  | BUF_D2<2>  | mup_OBUF17
+INPUTMC | 5 | 1 | 6 | 0 | 5 | 1 | 7 | 3 | 10 | 0 | 4
+EQ | 2 | 
+   BUF_D1<2> = state_FSM_FFd2 & !BUF_D2<4>
+	# state_FSM_FFd1 & !BUF_D2<2> & !mup_OBUF17;
+
+MACROCELL | 3 | 10 | BUF_D2<2>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 12 | 1 | 17 | 0 | 13 | 0 | 12 | 0 | 17 | 0 | 11 | 0 | 8 | 1 | 10 | 2 | 6 | 0 | 4 | 2 | 8 | 3 | 0 | 1 | 16
+INPUTS | 3 | est_114  | BUF_D2<3>  | BUF_D2<1>
+INPUTMC | 3 | 2 | 15 | 0 | 6 | 2 | 5
+EQ | 2 | 
+   BUF_D2<2> = BUF_D2<1>
+	# !est_114 & BUF_D2<3>;
+
+MACROCELL | 2 | 5 | BUF_D2<1>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 9 | 0 | 13 | 0 | 12 | 0 | 16 | 0 | 11 | 0 | 8 | 3 | 8 | 3 | 14 | 3 | 10 | 3 | 2
+INPUTS | 5 | reset  | state_FSM_FFd3  | state_FSM_FFd4  | state_FSM_FFd2  | state_FSM_FFd1
+INPUTMC | 4 | 1 | 3 | 1 | 14 | 1 | 6 | 1 | 7
+INPUTP | 1 | 38
+EQ | 3 | 
+   BUF_D2<1> = !reset
+	# !state_FSM_FFd3 & !state_FSM_FFd4 & !state_FSM_FFd2 & 
+	!state_FSM_FFd1;
+
+MACROCELL | 0 | 4 | mup_OBUF17
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 10 | 1 | 14 | 0 | 12 | 0 | 11 | 1 | 16 | 3 | 14 | 2 | 6 | 3 | 3 | 3 | 0 | 1 | 13 | 3 | 17
+INPUTS | 5 | state_FSM_FFd2  | state_FSM_FFd1  | BUF_D2<2>  | state_FSM_FFd3  | state_FSM_FFd4
+INPUTMC | 5 | 1 | 6 | 1 | 7 | 3 | 10 | 1 | 3 | 1 | 14
+EQ | 5 | 
+   mup_OBUF17 = !state_FSM_FFd2 & !state_FSM_FFd1 & !BUF_D2<2>
+	# state_FSM_FFd3 & !state_FSM_FFd4 & state_FSM_FFd1 & 
+	!BUF_D2<2>
+	# !state_FSM_FFd3 & state_FSM_FFd4 & !state_FSM_FFd2 & 
+	!BUF_D2<2>;
+
+MACROCELL | 0 | 5 | BUF_D2<4>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 7 | 1 | 13 | 0 | 12 | 0 | 11 | 1 | 8 | 2 | 6 | 2 | 8 | 1 | 17
+INPUTS | 5 | reset  | state_FSM_FFd3  | state_FSM_FFd4  | state_FSM_FFd1  | state_FSM_FFd2
+INPUTMC | 4 | 1 | 3 | 1 | 14 | 1 | 7 | 1 | 6
+INPUTP | 1 | 38
+EQ | 3 | 
+   BUF_D2<4> = !reset
+	# state_FSM_FFd3 & state_FSM_FFd4 & state_FSM_FFd2
+	# !state_FSM_FFd3 & !state_FSM_FFd4 & !state_FSM_FFd1;
+
+MACROCELL | 3 | 3 | BUF_state_FSM_FFd1
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 10 | 1 | 13 | 1 | 7 | 3 | 14 | 3 | 0 | 1 | 15 | 3 | 1 | 3 | 12 | 3 | 13 | 3 | 16 | 3 | 17
+INPUTS | 11 | f1  | est_216  | mup_OBUF17  | f2  | state_FSM_FFd4  | BUF_D1<3>  | f3  | est_013  | est_114  | EXP8_.EXP  | E_dis_0.EXP
+INPUTMC | 8 | 2 | 9 | 0 | 4 | 1 | 14 | 0 | 0 | 0 | 7 | 2 | 15 | 3 | 2 | 3 | 4
+INPUTP | 3 | 16 | 52 | 54
+IMPORTS | 2 | 3 | 2 | 3 | 4
+EQ | 16 | 
+   BUF_state_FSM_FFd1 = !f1 & est_216 & mup_OBUF17
+	# f2 & state_FSM_FFd4 & BUF_D1<3>
+	# f3 & state_FSM_FFd4 & !est_013 & mup_OBUF17
+	# !f1 & !f2 & est_013 & BUF_D1<3>
+	# f2 & est_114 & !est_216 & mup_OBUF17
+;Imported pterms FB4_3
+	# !f1 & !f2 & est_216 & BUF_D1<1>
+	# f3 & !f1 & !f2 & reset & BUF_D2<1>
+	# !f3 & !f1 & state_FSM_FFd1 & !est_013 & BUF_D2<5>
+	# !f1 & !s & !p2 & p1 & !p3 & !f2 & reset & 
+	BUF_D2<1>
+	# !f3 & !f1 & !s & !p2 & !p1 & p3 & !est_013 & 
+	est_114 & BUF_D1<2>
+;Imported pterms FB4_5
+	# !f3 & !f1 & !s & !p2 & p1 & !p3 & !est_013 & 
+	est_114 & BUF_D1<2>;
+
+MACROCELL | 2 | 8 | BUF_D1<1>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 9 | 1 | 13 | 0 | 13 | 1 | 12 | 3 | 14 | 3 | 2 | 3 | 12 | 3 | 13 | 3 | 15 | 3 | 17
+INPUTS | 5 | BUF_D1<3>  | BUF_D2<2>  | BUF_D2<4>  | state_FSM_FFd3  | state_FSM_FFd1
+INPUTMC | 5 | 0 | 0 | 3 | 10 | 0 | 5 | 1 | 3 | 1 | 7
+EQ | 2 | 
+   BUF_D1<1> = state_FSM_FFd3 & state_FSM_FFd1 & !BUF_D2<2>
+	# !BUF_D1<3> & !BUF_D2<2> & !BUF_D2<4>;
+
+MACROCELL | 3 | 0 | BUF_state_FSM_FFd2
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 6 | 1 | 13 | 1 | 6 | 3 | 14 | 1 | 15 | 3 | 12 | 3 | 13
+INPUTS | 13 | f2  | mup_OBUF17  | BUF_state_FSM_FFd1  | est_013  | BUF_D1<3>  | f3  | state_FSM_FFd2  | est_114  | BUF_D2<2>  | s  | BUF_D2<0>  | E_dis_1.EXP  | EXP12_.EXP
+INPUTMC | 10 | 0 | 4 | 3 | 3 | 0 | 7 | 0 | 0 | 1 | 6 | 2 | 15 | 3 | 10 | 1 | 17 | 3 | 1 | 3 | 17
+INPUTP | 3 | 52 | 54 | 59
+IMPORTS | 2 | 3 | 1 | 3 | 17
+EQ | 20 | 
+   BUF_state_FSM_FFd2 = f3 & mup_OBUF17 & !BUF_state_FSM_FFd1
+	# f2 & mup_OBUF17 & !BUF_state_FSM_FFd1
+	# !f2 & est_013 & BUF_D1<3>
+	# s & !f2 & state_FSM_FFd2 & !BUF_D2<0>
+	# state_FSM_FFd2 & est_013 & est_114 & !BUF_D2<2>
+;Imported pterms FB4_2
+	# !f3 & f1 & !f2 & reset & BUF_D2<0>
+	# !f3 & !f1 & f2 & reset & !state_FSM_FFd4 & 
+	!BUF_state_FSM_FFd1
+	# !s & !p2 & p1 & !p3 & !f2 & est_216 & BUF_D1<2>
+;Imported pterms FB4_18
+	# p1 & !f2 & BUF_D1<2> & !BUF_state_FSM_FFd1
+	# !f2 & est_216 & !BUF_state_FSM_FFd1 & BUF_D1<1>
+	# !state_FSM_FFd4 & !mup_OBUF17 & !BUF_state_FSM_FFd1 & 
+	!BUF_D2<0>
+	# p2 & p3 & !f2 & state_FSM_FFd2 & BUF_D1<2>
+	# !p2 & !p3 & !f2 & BUF_D1<2> & !BUF_state_FSM_FFd1
+;Imported pterms FB4_17
+	# !s & p2 & !p1 & !p3 & est_216 & BUF_D1<2> & 
+	BUF_state_FSM_FFd1;
+
+MACROCELL | 1 | 17 | BUF_D2<0>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 6 | 3 | 9 | 3 | 12 | 3 | 0 | 3 | 1 | 3 | 15 | 3 | 17
+INPUTS | 4 | state_FSM_FFd4  | BUF_D1<3>  | BUF_D2<4>  | BUF_D2<2>
+INPUTMC | 4 | 1 | 14 | 0 | 0 | 0 | 5 | 3 | 10
+EQ | 2 | 
+   BUF_D2<0> = state_FSM_FFd4 & !BUF_D1<3> & BUF_D2<4>
+	# !BUF_D1<3> & BUF_D2<2> & BUF_D2<4>;
+
+MACROCELL | 2 | 3 | E_dis_018
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 7 | 1 | 1 | 2 | 4 | 2 | 1 | 0 | 16 | 0 | 14 | 0 | 9 | 3 | 4
+INPUTS | 3 | reset  | state_mux_FSM_FFd2  | state_mux_FSM_FFd1
+INPUTMC | 2 | 2 | 0 | 0 | 2
+INPUTP | 1 | 38
+EQ | 2 | 
+   E_dis_018 = !reset
+	# !state_mux_FSM_FFd2 & !state_mux_FSM_FFd1;
+
+MACROCELL | 1 | 13 | EXP6_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 14
+INPUTS | 13 | f1  | state_FSM_FFd1  | BUF_state_FSM_FFd2  | est_013  | mup_OBUF17  | p3  | state_FSM_FFd4  | BUF_state_FSM_FFd3  | BUF_D1<2>  | BUF_D2<4>  | BUF_state_FSM_FFd1  | BUF_D1<1>  | D1<1>.EXP
+INPUTMC | 11 | 1 | 7 | 3 | 0 | 0 | 7 | 0 | 4 | 1 | 14 | 3 | 14 | 2 | 6 | 0 | 5 | 3 | 3 | 2 | 8 | 1 | 12
+INPUTP | 2 | 16 | 50
+EXPORTS | 1 | 1 | 14
+IMPORTS | 1 | 1 | 12
+EQ | 12 | 
+       EXP6_.EXP  =  f1 & state_FSM_FFd1 & BUF_state_FSM_FFd2
+	# f1 & est_013 & !mup_OBUF17 & BUF_state_FSM_FFd2
+	# !p3 & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# state_FSM_FFd4 & !BUF_D1<2> & !BUF_D2<4> & 
+	!BUF_state_FSM_FFd2
+	# !BUF_state_FSM_FFd3 & !BUF_state_FSM_FFd1 & 
+	BUF_D1<1> & !BUF_state_FSM_FFd2
+;Imported pterms FB2_13
+	# s & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+	# !p2 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+	# p1 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+
+MACROCELL | 1 | 15 | EXP7_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 14
+INPUTS | 14 | s  | state_FSM_FFd4  | BUF_state_FSM_FFd3  | BUF_state_FSM_FFd2  | p2  | p1  | f3  | state_FSM_FFd2  | BUF_state_FSM_FFd1  | p3  | f2  | est_013  | BUF_D1<2>  | mup_OBUF.EXP
+INPUTMC | 8 | 1 | 14 | 3 | 14 | 3 | 0 | 1 | 6 | 3 | 3 | 0 | 7 | 2 | 6 | 1 | 16
+INPUTP | 6 | 59 | 49 | 47 | 54 | 50 | 52
+EXPORTS | 1 | 1 | 14
+IMPORTS | 1 | 1 | 16
+EQ | 12 | 
+       EXP7_.EXP  =  s & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# p2 & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# p1 & state_FSM_FFd4 & BUF_state_FSM_FFd3 & 
+	!BUF_state_FSM_FFd2
+	# !f3 & state_FSM_FFd4 & state_FSM_FFd2 & 
+	!BUF_state_FSM_FFd1 & BUF_state_FSM_FFd2
+	# p3 & !f2 & state_FSM_FFd4 & est_013 & BUF_D1<2>
+;Imported pterms FB2_17
+	# !f3 & !s & !p2 & !p1 & p3 & state_FSM_FFd3 & 
+	state_FSM_FFd2 & !BUF_D2<2>
+
+MACROCELL | 3 | 2 | EXP8_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 3
+INPUTS | 16 | f1  | f2  | est_216  | BUF_D1<1>  | f3  | reset  | BUF_D2<1>  | state_FSM_FFd1  | est_013  | BUF_D2<5>  | s  | p2  | p1  | p3  | est_114  | BUF_D1<2>
+INPUTMC | 8 | 2 | 9 | 2 | 8 | 2 | 5 | 1 | 7 | 0 | 7 | 0 | 10 | 2 | 15 | 2 | 6
+INPUTP | 8 | 16 | 52 | 54 | 38 | 59 | 49 | 47 | 50
+EXPORTS | 1 | 3 | 3
+EQ | 7 | 
+       EXP8_.EXP  =  !f1 & !f2 & est_216 & BUF_D1<1>
+	# f3 & !f1 & !f2 & reset & BUF_D2<1>
+	# !f3 & !f1 & state_FSM_FFd1 & !est_013 & BUF_D2<5>
+	# !f1 & !s & !p2 & p1 & !p3 & !f2 & reset & 
+	BUF_D2<1>
+	# !f3 & !f1 & !s & !p2 & !p1 & p3 & !est_013 & 
+	est_114 & BUF_D1<2>
+
+MACROCELL | 3 | 12 | EXP9_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 13
+INPUTS | 14 | f2  | state_FSM_FFd3  | state_FSM_FFd2  | BUF_D2<0>  | f3  | p2  | state_FSM_FFd4  | BUF_state_FSM_FFd1  | BUF_D1<1>  | p3  | p1  | est_013  | est_216  | BUF_state_FSM_FFd2
+INPUTMC | 9 | 1 | 3 | 1 | 6 | 1 | 17 | 1 | 14 | 3 | 3 | 2 | 8 | 0 | 7 | 2 | 9 | 3 | 0
+INPUTP | 5 | 52 | 54 | 49 | 50 | 47
+EXPORTS | 1 | 3 | 13
+EQ | 9 | 
+       EXP9_.EXP  =  f2 & state_FSM_FFd3 & !state_FSM_FFd2 & 
+	!BUF_D2<0>
+	# !f3 & !p2 & !state_FSM_FFd4 & !BUF_state_FSM_FFd1 & 
+	BUF_D1<1>
+	# !f3 & p3 & state_FSM_FFd3 & !state_FSM_FFd2 & 
+	!BUF_D2<0>
+	# !p2 & !p1 & est_013 & est_216 & BUF_D1<1>
+	# p1 & state_FSM_FFd3 & est_013 & 
+	!BUF_state_FSM_FFd2 & !BUF_D2<0>
+
+MACROCELL | 3 | 13 | EXP10_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 14
+INPUTS | 14 | f1  | state_FSM_FFd3  | BUF_D1<2>  | est_013  | BUF_D1<3>  | BUF_state_FSM_FFd1  | f3  | est_114  | BUF_state_FSM_FFd2  | p2  | f2  | BUF_D1<1>  | p3  | EXP9_.EXP
+INPUTMC | 9 | 1 | 3 | 2 | 6 | 0 | 7 | 0 | 0 | 3 | 3 | 2 | 15 | 3 | 0 | 2 | 8 | 3 | 12
+INPUTP | 5 | 16 | 54 | 49 | 52 | 50
+EXPORTS | 1 | 3 | 14
+IMPORTS | 1 | 3 | 12
+EQ | 17 | 
+       EXP10_.EXP  =  f1 & state_FSM_FFd3 & BUF_D1<2>
+	# est_013 & BUF_D1<3> & !BUF_state_FSM_FFd1
+	# !f3 & state_FSM_FFd3 & est_114 & 
+	BUF_state_FSM_FFd2
+	# !p2 & f2 & !est_114 & BUF_D1<1>
+	# p3 & BUF_D1<2> & !BUF_state_FSM_FFd1 & 
+	!BUF_state_FSM_FFd2
+;Imported pterms FB4_13
+	# f2 & state_FSM_FFd3 & !state_FSM_FFd2 & 
+	!BUF_D2<0>
+	# !f3 & !p2 & !state_FSM_FFd4 & !BUF_state_FSM_FFd1 & 
+	BUF_D1<1>
+	# !f3 & p3 & state_FSM_FFd3 & !state_FSM_FFd2 & 
+	!BUF_D2<0>
+	# !p2 & !p1 & est_013 & est_216 & BUF_D1<1>
+	# p1 & state_FSM_FFd3 & est_013 & 
+	!BUF_state_FSM_FFd2 & !BUF_D2<0>
+
+MACROCELL | 3 | 15 | EXP11_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 14
+INPUTS | 10 | f3  | p3  | est_216  | BUF_D1<1>  | s  | state_FSM_FFd3  | BUF_D2<0>  | f2  | est_114  | p1
+INPUTMC | 5 | 2 | 9 | 2 | 8 | 1 | 3 | 1 | 17 | 2 | 15
+INPUTP | 5 | 54 | 50 | 59 | 52 | 47
+EXPORTS | 1 | 3 | 14
+EQ | 5 | 
+       EXP11_.EXP  =  f3 & p3 & est_216 & BUF_D1<1>
+	# !f3 & s & state_FSM_FFd3 & !BUF_D2<0>
+	# s & f2 & !est_114 & BUF_D1<1>
+	# s & state_FSM_FFd3 & est_216 & BUF_D1<1>
+	# p1 & f2 & !est_114 & BUF_D1<1>
+
+MACROCELL | 3 | 17 | EXP12_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 0
+INPUTS | 13 | p1  | f2  | BUF_D1<2>  | BUF_state_FSM_FFd1  | est_216  | BUF_D1<1>  | state_FSM_FFd4  | mup_OBUF17  | BUF_D2<0>  | p2  | p3  | state_FSM_FFd2  | est_0.EXP
+INPUTMC | 9 | 2 | 6 | 3 | 3 | 2 | 9 | 2 | 8 | 1 | 14 | 0 | 4 | 1 | 17 | 1 | 6 | 3 | 16
+INPUTP | 4 | 47 | 52 | 49 | 50
+EXPORTS | 1 | 3 | 0
+IMPORTS | 1 | 3 | 16
+EQ | 9 | 
+       EXP12_.EXP  =  p1 & !f2 & BUF_D1<2> & !BUF_state_FSM_FFd1
+	# !f2 & est_216 & !BUF_state_FSM_FFd1 & BUF_D1<1>
+	# !state_FSM_FFd4 & !mup_OBUF17 & !BUF_state_FSM_FFd1 & 
+	!BUF_D2<0>
+	# p2 & p3 & !f2 & state_FSM_FFd2 & BUF_D1<2>
+	# !p2 & !p3 & !f2 & BUF_D1<2> & !BUF_state_FSM_FFd1
+;Imported pterms FB4_17
+	# !s & p2 & !p1 & !p3 & est_216 & BUF_D1<2> & 
+	BUF_state_FSM_FFd1
+
+PIN | f3 | 64 | 0 | N/A | 54 | 12 | 1 | 14 | 3 | 14 | 3 | 3 | 3 | 0 | 1 | 15 | 1 | 16 | 3 | 1 | 3 | 2 | 3 | 4 | 3 | 12 | 3 | 13 | 3 | 15
+PIN | f1 | 64 | 0 | N/A | 16 | 7 | 1 | 14 | 3 | 13 | 3 | 3 | 1 | 13 | 3 | 1 | 3 | 2 | 3 | 4
+PIN | s | 64 | 0 | N/A | 59 | 9 | 1 | 12 | 3 | 4 | 3 | 2 | 3 | 0 | 1 | 15 | 1 | 16 | 3 | 1 | 3 | 15 | 3 | 16
+PIN | p2 | 64 | 0 | N/A | 49 | 10 | 1 | 12 | 3 | 13 | 3 | 2 | 1 | 16 | 1 | 15 | 3 | 1 | 3 | 4 | 3 | 12 | 3 | 16 | 3 | 17
+PIN | p1 | 64 | 0 | N/A | 47 | 10 | 1 | 12 | 3 | 12 | 3 | 2 | 1 | 16 | 1 | 15 | 3 | 1 | 3 | 4 | 3 | 15 | 3 | 16 | 3 | 17
+PIN | p3 | 64 | 0 | N/A | 50 | 11 | 1 | 13 | 3 | 13 | 3 | 2 | 1 | 16 | 1 | 15 | 3 | 1 | 3 | 4 | 3 | 12 | 3 | 15 | 3 | 16 | 3 | 17
+PIN | f2 | 64 | 0 | N/A | 52 | 12 | 1 | 14 | 3 | 14 | 3 | 3 | 3 | 0 | 1 | 12 | 1 | 15 | 3 | 1 | 3 | 2 | 3 | 12 | 3 | 13 | 3 | 15 | 3 | 17
+PIN | clk | 64 | 0 | N/A | 9 | 31 | 2 | 13 | 3 | 16 | 2 | 2 | 1 | 4 | 0 | 1 | 0 | 3 | 1 | 3 | 1 | 14 | 1 | 6 | 1 | 7 | 3 | 6 | 2 | 12 | 0 | 15 | 0 | 13 | 0 | 12 | 0 | 17 | 0 | 11 | 1 | 12 | 2 | 17 | 2 | 11 | 2 | 16 | 0 | 8 | 3 | 7 | 2 | 10 | 1 | 11 | 3 | 9 | 3 | 8 | 1 | 10 | 1 | 8 | 1 | 16 | 1 | 2
+PIN | reset | 64 | 0 | N/A | 38 | 29 | 2 | 13 | 3 | 16 | 2 | 2 | 1 | 4 | 0 | 1 | 2 | 0 | 0 | 2 | 2 | 12 | 0 | 15 | 2 | 17 | 2 | 11 | 2 | 16 | 2 | 10 | 1 | 1 | 2 | 7 | 2 | 4 | 2 | 1 | 0 | 16 | 0 | 14 | 0 | 9 | 3 | 1 | 1 | 5 | 1 | 9 | 0 | 10 | 0 | 6 | 2 | 5 | 0 | 5 | 3 | 2 | 2 | 3
+PIN | est<0> | 536871040 | 0 | N/A | 83
+PIN | est<1> | 536871040 | 0 | N/A | 43
+PIN | est<2> | 536871040 | 0 | N/A | 88
+PIN | est<3> | 536871040 | 0 | N/A | 11
+PIN | mdw | 536871040 | 0 | N/A | 17
+PIN | D_out<0> | 536871040 | 0 | N/A | 87
+PIN | D_out<1> | 536871040 | 0 | N/A | 33
+PIN | D_out<2> | 536871040 | 0 | N/A | 31
+PIN | D_out<3> | 536871040 | 0 | N/A | 29
+PIN | D_out<4> | 536871040 | 0 | N/A | 27
+PIN | D_out<5> | 536871040 | 0 | N/A | 26
+PIN | D_out<6> | 536871040 | 0 | N/A | 25
+PIN | E_dis<0> | 536871040 | 0 | N/A | 63
+PIN | E_dis<1> | 536871040 | 0 | N/A | 62
+PIN | E_dis<2> | 536871040 | 0 | N/A | 89
+PIN | E_dis<3> | 536871040 | 0 | N/A | 1
+PIN | mup | 536871040 | 0 | N/A | 10

@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/Documentos/Proyectos_Digitales/Elevador3pisos/divisor_frc_VM.v -lang verilog -prj Elevador3pisos -o divisor_frc_VM.spl -module divisor_frc_VM -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl divisor_frc_VM.spl D:/Documentos/Proyectos_Digitales/Elevador3pisos/divisor_frc_VM.sym 
+vhdtdtfi -lang verilog -prj Elevador3pisos -o D:/Documentos/Proyectos_Digitales/Elevador3pisos/divisor_frc_VM.tfi -lib work D:/Documentos/Proyectos_Digitales/Elevador3pisos//divisor_frc_VM.v -module divisor_frc_VM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
